@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.body{
+    width: 100%;
+    background-color: #fafafa;
+}
+.section{
+    float: left;
+}
+.cartpgtitle{
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.center{
+    text-align: center;
+}
+.lockicon {
+    margin-right: 20px;
+}
+.cartdetail{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.cardbody{
+    width: 90%;
+    margin-left: 5%;
+}
+.yourcart{
+    width: 60%;
+}
+.yourcartHeader{
+    border-bottom: 1px solid grey;
+    padding-bottom: 60px;
+}
+.yourcart ul li {
+    list-style: none;
+    float: left;
+}
+.yourcart ul li a{
+    float: left;
+    color: black;
+    margin-top: 25px;
+    margin-left: 400px;
+    font-size: 13px;
+}
+.yourcartbody{
+    float: left;
+}
+.cartitem{
+    float: left;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
+}
+.yourcartbody img {
+    width: 30%;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    float: left;
+}
+.yourcartcontent{
+    margin-left: 20px;
+    float: left;
+    margin-top: 10px;
+}
+.yourcartcontent p{
+    line-height: 25px;
+    font-size: 15px;
+}
+.qtt{
+    width: 50px;
+    margin-left: 10px;
+    height: 25px;
+}
+.removebtt{
+    margin-left: 220px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.cartrightside{
+    margin-left: 5%;
+    float: left;
+    margin-top: 0px;
+    width: 35%;
+}
+.summary{
+    background-color: #eae7e7;
+    margin-top: 0px;
+    padding: 10px 30px;
+}
+.summary h2{
+    margin-bottom: 20px;
+}
+.summary table tr {
+    height: 30px;
+}
+.summarytbcln{
+    width: 210px;
+}
+.checkout{
+    margin: 20px 40px;
+}
+.btt{
+    float: left;
+}
+.checkoutbtt{
+    padding: 10px 20px;
+    border: 2px solid #CF102D;
+    background-color: #CF102D;
+    color: #FFF;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+.checkoutbtt:disabled{
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    pointer-events: none;
+}
+.rigtbtt{
+    margin-left: 50px;
+    float: left;
+}
+.checkoutbtt:hover{
+    background-color: #FFF;
+    color: #CF102D;
+}
+.dessec{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
+}
+.dessec p{
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 15px;
+    width: 100%;
+}
+.updownicon{
+    margin-top: -28px;
+    float: right;
+    margin-right: 0px;
+}
+.triggermouseover{
+    cursor: pointer;
+}
+.dlvcontent{
+    display: none;
+}
+.returncontent{
+    display: none;
+}
+.paymenticon {
+    color: cornflowerblue;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.paymentmt{
+    float: left;
+    margin-left: 10%;
+}
+.signin {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.signin .checkoutbtt{
+    float: left;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+.cartleftside{
+    border: 1px solid grey;
+    width: 60%;
+    float: left;
+    padding: 10px 20px;
+}
+.infosec{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sectitle{
+    float: left;
+}
+.sectitle h3{
+    background-color: #eae7e7;
+    border: 1px solid lightgrey;
+    /*border-top: 1px solid grey;*/
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+.haftinput {
+    float: left;
+    margin:10px 25px;
+    height: 60px;
+}
+.haftinput input {
+    border: 1px solid lightgrey;
+    height: 30px;
+    width: 200px;
+}
+.fullinput {
+    margin: 30px 25px;
+
+}
+.fullinput input{
+    height: 30px;
+    width: 450px;
+    border: 1px solid lightgrey;
+}
+.checkoutform{
+    margin-top: 20px;
+}
+.infosec ul li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    margin-right:5px;
+}
+.infosec ul li i{
+    margin-top: 0px;
+    float: left;
+    color: red;
+    font-size: 8px;
+}
+.radioicon{
+    height: 20px;
+    float: left;
+    font-size: 9px;
+    margin-right: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.method{
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.selectpaymethod{
+    height: 100px;
+}
+.selectmethod{
+    margin-left: 5px;
+    float: left;
+}
+.payradiobtt{
+    display: none;
+}
+.selecthumb{
+    cursor: pointer;
+}
+.payinfo{
+    display: none;
+    float: left;
+    margin-top: 10px;
+}
+.backbtt{
+    float: left;
+    padding: 10px 20px;
+    border: 2px solid #CF102D;
+    background-color: #fafafa;
+    color: #CF102D;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+.bottombtt{
+    margin-left: 30%;
+    float: left;
+    margin-top: 50px;
+}
+.errmess{
+    display: none;
+    color:red;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.shipmtd{
+    margin-top: 100px;
+}
+.inputfield{
+    float: left;
+    margin-top: 20px;
+}
+.inputvalue{
+    margin-left: -100px;
+    margin-top: -5px;
+    width: 80%;
+}
+.cartempty{
+    float: left;
+    width: 631.79px;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order Complete</title>
+    <link rel="stylesheet" href="css/showcard.css">
+    <link rel="stylesheet" href="libs/fontaw5.15.1/css/all.css">
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
+</head>
+<body>
+<section class="col-md-12 cartpgtitle section">
+    <div class="container">
+        <div class="row">
+            <div class="center">
+                <h2>Order Complete</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="col-md-12 section">
+        <div class="row">
+            <div class="center">
+                <p>Your order was created successfully. Thank you so much!</p><br>
+                <button type="submit" class="checkoutbtt" onclick="/.">BACK TO HOME</button>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+        localStorage.removeItem("cart");
+    })
+</script>
+</body>
+</html>

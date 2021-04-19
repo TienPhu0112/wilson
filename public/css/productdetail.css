@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.body{
+    width: 100%;
+    background-color: #fafafa;
+}
+.section{
+    float: left;
+}
+.mainphoto{
+    width: 45%;
+    float: left;
+}
+.mainimgs{
+    width: 100%;
+    margin-top: 30px;
+}
+.product{
+    float: left;
+    width: 90%;
+    margin-left:5%;
+    margin-right: 5%;
+}
+.productinfo{
+    float: left;
+    width: 47%;
+    margin-left: 5%;
+}
+.select{
+    margin-top: 10px;
+}
+.select tr{
+    height: 30px;
+}
+.select td{
+    margin-left: 10px;
+}
+.space{
+    width: 10px;
+}
+.size{
+    border: 2px solid lightgrey;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: lightgrey;
+}
+.size:hover{
+    cursor: pointer;
+}
+.quantity {
+    margin-top: 20px;
+}
+.qtt{
+    display: block;
+    width: 50px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+.addtocard{
+    margin-top: 30px;
+}
+.addtocardbtt{
+    padding: 10px 20px;
+    border: 2px solid #CF102D;
+    background-color: #CF102D;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+.addtocardbtt:hover{
+    background-color: #FFF;
+    color: #CF102D;
+}
+.txtgreen{
+    margin-top: 20px;
+    padding: 5px 20px;
+    color: #9e8b60;
+    background-color: #f5ebdd;
+}
+.productprice{
+    margin-top: 30px;
+}
+.productcolor{
+    margin-top: 20px;
+}
+.ttooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.ttooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    /*border-radius: 6px;*/
+    padding: 10px 20px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 2;
+    background-color: whitesmoke;
+}
+
+.ttooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.ttooltip li{
+    margin-left: 20px;
+}
+
+.ttooltip p i{
+    color: #9e8b60;
+}
+.dessec{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: left;
+    margin-left: 48%;
+    width: 40%;
+    border-top: 1px solid lightgrey;
+}
+.dessec p{
+    text-align: justify;
+}
+.desTitle{
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    /*border-bottom: 1px solid black;*/
+}
+.desTitle ul li{
+    list-style: none;
+    float: left;
+}
+.largepart {
+    width: 95%;
+}
+.desBody{
+    display: none;
+}
+.specs{
+    border-bottom: 1px solid lightgrey;
+}
+.download{
+    float: left;
+    margin-top: 10px;
+    margin-left: 48%;
+}
+.compare{
+    margin-top: 50px;
+}
+.center{
+    text-align: center;
+    margin-left: 5%;
+}
+.cptable tr{
+    height: 50px;
+}
+.tdborder {
+    width: 170px;
+    border: 1px solid lightgrey;
+}
+.tdnoneborder {
+    border: 0px white;
+}
+.tableimg {
+    width: 168px;
+    margin-left: 1px;
+}
+.trcolor {
+    background-color: #f5ebdd;
+
+}
+.trcolor td a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.center h3{
+    color: #9e8b60;
+    margin-bottom: 20px;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 70px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 40%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closemodal {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closemodal:hover,
+.closemodal:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.owlswitch {
+    margin-left: 4%;
+    margin-top: -20px;
+}
+.selectphoto{
+    margin-top: 50px;
+    width: 38%;
+    float: left;
+}
+.des {
+    width: 100%;
+    margin-top: -140px;
+    margin-left: 3%;
+}
+.smallimgs{
+    cursor: pointer;
+    border: 1px solid #a9a5a5;
+}
+.bcknxticon {
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.owl-nav {
+    display: none;
+}
+.owl-dots{
+    display: none;
+}
+.review i{
+    color: #e3c42a;
+}

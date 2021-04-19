@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Show Card</title>
+    <link rel="stylesheet" href="css/showcard.css">
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/fontaw5.15.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
+</head>
+<body>
+<section class="col-md-12 cartpgtitle section">
+    <div class="container">
+        <div class="row">
+            <div class="center">
+                <h2><span><i class="fas fa-lock lockicon"></i></span>Secure Payment</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="col-md-12 section">
+    <div class="container">
+        <div class="row">
+            <div class="cardbody">
+                <div class="yourcart">
+                    <ul class="yourcartHeader">
+                        <li><h3>Your Cart</h3></li>
+                        <li><a href="#"><i>Continue shopping</i></a></li>
+                    </ul>
+                    <form class="yourcartbody" id="yourcartbody">
+                        <div class="cartempty">
+                            <p>Your cart is empty.</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="cartrightside">
+                    <div class="summary">
+                        <h2>Summary</h2>
+                        <form method="Get" action="/check-out">
+                            <table>
+                                <tr>
+                                    <td class="summarytbcln">SubTotal</td>
+                                    <td id="subtotal">$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="summarytbcln">Shipping & Handling</td>
+                                    <td>FREE</td>
+                                </tr>
+                                <tr>
+                                    <td class="summarytbcln">Estimated Sales Tax</td>
+                                    <td id="taxtotal">$0.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="summarytbcln"><h3>TOTAL</h3></td>
+                                    <td><h3 id="totalmoney">$0.00</h3></td>
+                                </tr>
+                            </table>
+                            <div class="checkout">
+                                <button type="submit" class="checkoutbtt" onclick="/check-out" id="checkoutbtt">PROCESS TO CHECKOUT</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="delivery dessec">
+                        <div class="triggermouseover" onclick="triggercontent('deliverycontent','deliveryicon')">
+                            <p>
+                                <span><i class="fas fa-shipping-fast"></i></span>
+                                <span>DELIVERY</span>
+                            </p>
+                            <i id="deliveryicon" class="fas fa-chevron-down updownicon"></i>
+                        </div>
+                        <p id="deliverycontent" class="dlvcontent">
+                            Orders placed with next-day or second-day delivery, if placed before the cut-off time (1 pm CST), will ship the same day.
+                        </p>
+                    </div>
+                    <div class="Return dessec">
+                        <div class="triggermouseover" onclick="triggercontent('returncontent','returnicon')">
+                            <p>
+                                <span><i class="fas fa-undo-alt"></i></span>
+                                <span>RETURN</span>
+                            </p>
+                            <i id="returnicon" class="fas fa-chevron-down updownicon"></i>
+                        </div>
+                        <p id="returncontent" class="returncontent">
+                            Free returns on most items within 30 days of receipt.
+                        </p>
+                    </div>
+                    <div class="paymentmt">
+                        <h3>Accepted Payment Method</h3>
+                        <i class="fab fa-cc-paypal paymenticon"></i>
+                        <i class="fab fa-cc-mastercard paymenticon"></i>
+                        <i class="fab fa-cc-visa paymenticon"></i>
+                        <i class="fab fa-cc-amazon-pay paymenticon"></i>
+                        <i class="fab fa-cc-apple-pay paymenticon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="js/detail.js"></script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+        var cart = [];
+        if(JSON.parse(localStorage.getItem("cart"))!==null){
+            cart = JSON.parse(localStorage.getItem("cart"));
+        }
+        var cartbodys = document.getElementsByClassName("yourcartbody");
+        var cartbody = cartbodys[0];
+        if(cart.length>0){
+            var cartempty = document.getElementsByClassName('cartempty');
+            cartempty[0].style.display = 'none';
+            var subtotal = 0;
+            var formatter = new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+            });
+            for(var i = 0; i < cart.length; i++) {
+                var tmpitem = cart[i];
+                subtotal = subtotal + parseInt(tmpitem.itemqtt)*parseInt(tmpitem.itemprice);
+                cartbody.innerHTML = cartbody.innerHTML + "<div class='cartitem' proId ='" + tmpitem.itemid + "'>" +
+                    "                            <img src='" + tmpitem.itemphoto + "'/>" +
+                    "                            <div class='yourcartcontent'>" +
+                    "                                <h4 class='itemname'>" + tmpitem.itemname + "</h4>" +
+                    "                                <p><b>SKU:</b><span>WBW10024012</span></p>" +
+                    "                                <p><b>Glove Size:</b><span>12\"</span></p>" +
+                    "                                <p><b>Throwing Hand:</b><span>Right</span></p>" +
+                    "                                <p><b>Price:</b><span>$" + tmpitem.itemprice + "</span></p>" +
+                    "                                <p>" +
+                    "                                    <span><b>Quantity:</b></span>" +
+                    "                                    <input type='text' class='qtt' value='" + tmpitem.itemqtt + "'/>" +
+                    "                                    <span class='removebtt' onclick=remove('" + tmpitem.itemid + "')><u>Remove</u></span>" +
+                    "                                </p>" +
+                    "                            </div>" +
+                    "                        </div>";
+            }
+            document.getElementById('subtotal').innerText = formatter.format(subtotal);
+            document.getElementById('taxtotal').innerText = formatter.format(subtotal/10);
+            document.getElementById('totalmoney').innerText = formatter.format(subtotal*11/10);
+
+        }else{
+            var checkoutbtt = document.getElementById("checkoutbtt");
+            checkoutbtt.disabled = true;
+        }
+    })
+</script>
+</body>
+</html>
