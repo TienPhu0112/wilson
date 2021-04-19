@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*class chung*/
+.hover_color_red{
+    color: #535353;
+}
+.hover_color_red:hover{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+.hover_border-bottom:hover{
+    border-bottom: 3px solid  red;
+    cursor: pointer;
+}
+.sticky_0{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/*-------------------*/
+header {
+    width: 100%;
+}
+.header_top{
+    color: #FFFFFF;
+    background-color: #8b8585;
+    text-align: center;
+    height: 45px;
+}
+.header_top p{
+    line-height: 45px;
+}
+.header_branch{
+    background-color: #eeeeee;
+
+}
+.header_branch .branch_iterm{
+    opacity: 0.5;
+}
+.header_branch .branch_iterm.logo{
+    opacity: 1;
+}
+.header_branch .branch_iterm:hover{
+    opacity: 1;
+}
+.header_branch-branch{
+    display: inline-block;
+
+}
+.header_branch .branch_iterm.logo{
+    width: 60px;
+}
+.header_branch .logo img{
+
+}
+.header_branch .branch_iterm{
+    display: inline-block;
+    margin-left: 20px ;
+}
+
+.img-Louisville{
+    width:130px;
+    display: inline-block;
+}
+.header_branch .branch_iterm.img-Atec{
+    width: 58px;
+}
+.header_branch .branch_iterm.img-demarini{
+    width: 100px;
+}
+.header_branch .branch_iterm.img-evoshield{
+    width: 130px;
+}
+.header_branch .branch_iterm.img-luxilon{
+    width: 70px;
+}
+
+.promo_box{
+
+    display: inline-block;
+    float: right;
+    height: 60px;
+}
+.promo_box ul li{
+    display: inline-block;
+    line-height: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.promo_box .img-flag{
+    width: 65px;
+    padding: 0 15px;
+}
+
+.navigation{
+    width: 100%;
+    height: 60px ;
+    border-bottom: 1px solid #A7A7A7;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 60px;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+.navigation .logo_brand img{
+   padding-bottom: 5px;
+}
+.navigation .navi,
+.navigation .navi .nav-item{
+    display: inline-block;
+    margin: 0 15px;
+}
+.navigation .navi .nav-item:hover{
+    border-bottom:  3px solid red;
+}
+
+
+.product_menu {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    line-height: 2;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF;
+}
+.product_baseball{
+    margin-left: -165px;
+}
+.product_basketball{
+    margin-left: -300px;
+}
+.product_football{
+    margin-left: -456px;
+}
+.product_tennis{
+    margin-left: -593px;
+}
+.product_running{
+    margin-left: -705px;
+}
+.product_more{
+    margin-left: -834px;
+}
+.product_menu .product_menu-item li{
+
+    list-style: none;
+}
+.product_menu ul:first-child{
+    padding-left: 12px;
+}
+.product_menu .product_menu-item li a{
+    color:#3c3c3c;
+}
+.product_menu .product_menu-item li:first-child a{
+    color: red;
+}
+.product_menu .product_menu-item li:hover a {
+    color: red;
+}
+
+.product_menu .product_menu-item{
+    display: none;
+    opacity: 0;
+    transition:opacity 1000ms;
+}
+.navigation li.product-btn:hover .product_menu-item
+{
+    display:block;
+    opacity: 1;
+
+}
+.navigation .nav-link i{
+    margin-left: 5px;
+}
+.navigation  .product-btn .nav-link{
+    display: inline-block;
+    height: 60px;
+}
+.navigation  .product-btn .nav-link:hover{
+border-bottom: 3px solid red ;
+}
+i.fa-chevron-up{
+    display: none;
+}
+.navigation  .product-btn .nav-link:hover .fa-chevron-down {
+    display: none;
+}
+.navigation  .product-btn .nav-link:hover .fa-chevron-up{
+    display: inline-block;
+}
+
+
+.navigation-right,
+.navigation-right li {
+    display: inline-block;
+    position: relative;
+    float: right;
+    font-size: 25px;
+    line-height: 57px;
+}
+.navigation-right li label{
+    padding: 0 20px;
+    border-left: 1px solid #d3d3d3;
+    line-height: 48px;
+}
+
+.nav_search{
+
+}
+.nav_search .nav_search-search {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.nav_search .nav_search-search label, .nav_search .nav_search-search .button-search{
+    flex: 1;
+    font-size: 20px;
+    line-height: 35px ;
+    font-weight: 500;
+}
+.nav_search .nav_search-search .input-search{
+    flex: 20;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.nav_search-none{
+    margin-top: 2px
+}
+.button-search-exit{
+    margin-left: 10px;
+    height: 100%;
+    width: 50px;
+}
+.button-search-exit label i{
+    height: 100%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav_search-none{
+    display: none;
+}
+#nav_search-open:checked ~ .nav_search-none{
+    display: block;
+}

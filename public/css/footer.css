@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*css chung*/
+.margin_left_top-30{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* end css chung*/
+footer{
+    background-color: #eeeeee;
+}
+footer a{
+    color: #3c3c3c;
+}
+footer a:hover{
+    color: #3c3c3c;
+}
+.footer_top{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer_logo{
+
+}
+.footer_logo{
+    width: 30%;
+
+}
+.footer_logo-logo{
+    width: 150px;
+}
+.footer_follow{
+    width: 30%;
+}
+.footer_follow-follows-us {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow_link_social>ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #646363 solid 1px;
+    padding: 10px 0;
+    width: 80%;
+
+}
+.follow_link_social>ul>li a:hover{
+    color: red;
+}
+
+.follow_link_social li{
+    list-style: none;
+    font-size: 22px;
+}
+.follow_link_social div>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.follow_link_social div>ul>li{
+    width: 35%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer .footer-right{
+    width: 30%;
+
+    padding-right: 10px;
+
+}
+.footer .footer-right ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    padding-bottom: 30px;
+
+}
+.footer .footer-right ul li i{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+/*--------footer branch------------------*/
+.footer .footer_branch{
+    border-bottom: 1px  solid #3c3c3c;
+
+}
+.footer .footer_branch p{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 150px 0 100px 0;
+    padding-left:30px ;
+}
+
+.footer .footer_branch-branch{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.footer .footer_branch-branch .branch_iterm{
+    width: 33.33%;
+    padding-left: 30px;
+
+}
+.footer .footer_branch-branch .branch_iterm .img{
+    width: 50%;
+}
+.footer .footer_branch-branch .branch_iterm img{
+opacity: 0.6;
+}
+.footer .footer_branch-branch .branch_iterm img:hover{
+    opacity: 1;
+}
+.footer .footer_branch-branch .branch_iterm.img-Louisville .img,
+.footer .footer_branch-branch .branch_iterm.img-demarini .img{
+    width: 60%;
+    margin: 100px 0 100px 0 ;
+}
+.footer .footer_boottom{
+    margin: 20px 0 50px 0;
+}
