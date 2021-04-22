@@ -160,9 +160,6 @@ button[type="submit"]:hover{
     border-color: #1dbfaf;
 }
 
-.form-select:hover{
-    border-color: #1dbfaf;
-}
 .form-group.invalid .form-control {
     border-color: #f33a58;
 }
