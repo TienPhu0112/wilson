@@ -1,0 +1,576 @@
+.free-shipping{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #808080;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 450;
+}
+
+.brand{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height:52px ;
+    background-color: #eeeeee;
+}
+
+/* Brand icon with id of their name */
+
+.brand-list{
+    display: flex;
+}
+
+.brand-all{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#wilson{
+    padding: 22px 10px 0 10px;
+}
+
+#wilson a img{
+    width: 60px;
+    height: 14px;
+}
+
+#louisville{
+    padding: 22px 10px 0 10px;
+}
+
+.brand-active{
+    border-bottom: 3px solid #CF102D;
+}
+
+#louisville a img{
+    height: 14px;
+    width: 104px;
+}
+
+.brand-all li a{
+    display: block;
+    opacity: 0.55;
+}
+
+.brand-all li a:hover{
+    opacity: 1;
+}
+
+#atec{
+    padding: 17px 10px 0 10px;
+}
+
+#atec a img{
+    width: 47px;
+    height: 23px;
+}
+
+#luxilon{
+    padding: 17px 10px 0 10px;
+}
+
+#luxilon img{
+    width: 80px;
+    height: 25px;
+}
+
+/* Sign in and find on the right */
+
+.sign-find{
+    display: flex;
+}
+
+.sign-find-list{
+    display: flex;
+    padding: 0;
+    margin: auto 24px auto 0;
+    list-style-type: none;
+}
+
+.sign-find ul li a:hover{
+    color: #B3282D;
+}
+
+.sign-find-list li{
+
+}
+
+.sign-find-list li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sign-find-list li:first-child{
+    margin-right: 30px;
+}
+
+.sign-in{
+    position: relative;
+}
+
+.sign-in::after{
+    content: "|";
+    position: absolute;
+    padding-left: 12px;
+    top: -1px;
+    color: #474747 !important;
+}
+
+.map-marker{
+    padding-right: 4px;
+}
+
+/* top bar */
+
+.top-bar{
+    display: flex;
+    background-color: #FFFFFF;
+    height: 65px;
+    width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.product-type{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.product-type-img{
+    padding-right: 36px;
+    margin: auto;
+}
+
+
+.product-type-li{
+    margin: auto;
+    padding-right: 54px;
+}
+
+.logo-louis{
+    display: block;
+}
+
+.logo-louis img{
+    width: 50px;
+    height: 27px;
+}
+
+.product{
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.85rem;
+    font-weight: 400;
+    display: block;
+}
+
+.product i{
+    position: absolute;
+    font-size: 14px;
+    right: -20px;
+    top: 2px;
+}
+
+.product-separate{
+    width: 3px;
+    height: 40px;
+    background-color: #B3282D;
+}
+
+.product-type-li-4{
+    padding-right: 46px;
+}
+
+.product-type-li-5{
+    padding-right: 25px;
+}
+
+/* Product hover */
+
+#baseball:hover .baseball-product{
+    display: block;
+}
+
+.baseball-product{
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #FFFFFF;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border-top: 1px solid #474747;
+    animation: fadeIn ease-in 0.2s;
+}
+
+.baseball-product::before{
+    content: "";
+    position: absolute;
+    top: -66px;
+    left: 90px;
+    width: 120px;
+    height: 66px;
+}
+
+.baseball-product-inner::before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 87px;
+    width: 126px;
+    height: 4px;
+    background-color: #B3282D;
+}
+
+.baseball-product-inner::after{
+    content: "";
+    border-width: 4px 6px;
+    border-style: solid;
+    border-color: transparent transparent #B3282D transparent;
+    position: absolute;
+    top: -10px;
+    left: 145px;
+}
+
+.baseball-product-list a{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+.baseball-product-list-header{
+    display: inline-block;
+    margin: 8px 0 4px 0;
+    color: #B3282D;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.baseball-product-list-header:hover{
+    text-decoration: underline;
+}
+
+.baseball-product-list-content{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.baseball-product-list-content a:hover{
+    text-decoration: underline;
+    color: #B3282D;
+}
+
+.baseball-product-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.baseball-product-inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 126px;
+}
+
+.baseball-product-list{
+    padding: 10px;
+    width: 30%;
+}
+
+/* Search and cart icon */
+
+.search-cart{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 5px 0 10px;
+}
+
+.search-cart li{
+    color: #474747;
+    line-height: 80px;
+}
+
+
+.search{
+    padding: 0 27px;
+    border-left: 1px solid #c3c5c8;
+    border-right: 1px solid #c3c5c8;
+}
+
+.search i{
+    font-size: 28px;
+}
+
+.cart{
+    padding: 0 28px;
+}
+
+.cart i{
+    font-size: 28px;
+}
+
+/* Hero img bats */
+
+.hero-img img{
+    width: 100%;
+}
+
+/* Custom product */
+
+.custom{
+    display: flex;
+    margin: 65px 24px ;
+    justify-content: space-between;
+}
+
+.custom-product{
+    width: 31.5%;
+}
+
+.custom-link{
+    display: block;
+}
+
+.custom-product img{
+    width: 100%;
+}
+
+.custom-describe{
+    text-align: center;
+    margin: 0;
+    padding-top: 22px;
+    font-size: 3.4rem;
+    color: #474747;
+    font-weight: 500;
+}
+
+/* Shop Bats */
+
+.shop-bats{
+    display: flex;
+    margin-top: 92px;
+}
+
+.shop-bats-product{
+    position: relative;
+    width: 50%;
+}
+
+.shop-bats-product img{
+    width: 100%;
+}
+
+.shop-bats-button{
+    display: block;
+}
+
+.shop-bats-button h4{
+    position: absolute;
+    width: 182px;
+    height: 34px;
+    background-color: #FFFFFF;
+    color: #B3282D ;
+    bottom: 36px;
+    right: 16px;
+    line-height: 34px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0;
+}
+
+.shop-bats-button h4:hover{
+    color: #FFFFFF;
+    background-color: #B3282D;
+    transition: 0.3s;
+}
+
+/* History bats */
+.history-bats{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-top: -3px;
+    background-image: url("https://www.slugger.com/sites/slugger.com/files/20-1338_LS_Homepage_Update_History_Parallax.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.history-describe{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.history-text{
+    margin: 0 0 4px 0;
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.history-button{
+    display: block;
+    width: 130px;
+    height: 34px;
+    background-color: #B3282D;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 34px;
+    margin: 0 auto;
+    font-size: 13.7px;
+    font-weight: 400;
+}
+
+.history-button:hover{
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+/*Ảnh swinging*/
+
+.swinging-img{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://www.slugger.com/sites/slugger.com/files/styles/none/public/20-1338_LS_Homepage_Update_WSS_FRS.jpg?itok=zitr31dy");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.swinging-img-describe{
+    width: 33%;
+    position: absolute;
+    top: -2px;
+    right: 36px;
+}
+
+.img-describe-header{
+    color: #000;
+    line-height: 0.9;
+    font-size: 6.2rem;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.img-describe-meet{
+    color: #000;
+    line-height: 1;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.learn-button{
+    display: block;
+    margin-top: 14px;
+    height: 34px;
+    width: 130px;
+    background-color: #000000;
+    float: right;
+}
+
+.learn-button:hover{
+    background-color: #B3282D;
+    transition: 0.3s;
+}
+
+.learn-button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 34px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Separate content */
+
+.separate-content{
+    width: 100%;
+    height: 1px;
+    background-color: #DDDDDD;
+    margin: 20px 0;
+}
+
+/* Sign in last */
+
+.sign-in-last{
+    width: 100%;
+    height: 86px;
+    background-color: #bbbdc0;
+    padding: 24px;
+}
+
+.sign-in-last-container{
+    display: flex;
+    margin: 0 120px;
+}
+
+.sign-in-last-text{
+    padding-right: 32px;
+    width: 50%;
+}
+
+.sign-in-last-text h1{
+    color: #474747;
+    line-height: 36px;
+    text-align: right;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sign-up-form{
+    display: flex;
+    width: 38%;
+}
+
+.input-form{
+    width: 90%;
+    display: flex;
+}
+
+.input-form .form-group{
+    margin-bottom: 0;
+    flex: 8;
+}
+
+.input-form .sign-up-button{
+    background-color: #B3282D;
+    flex: 2;
+    border: none;
+}
+
+.input-form .sign-up-button:hover{
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+
+
+
+
+

@@ -1,0 +1,464 @@
+.container-all{
+    width: 100%;
+}
+
+.slider-img{
+    width: 100%;
+    position: relative;
+}
+
+.mySlides{
+    width: 100%;
+}
+
+.slider-img-text{
+    position: absolute;
+    width: 33%;
+    top: 14%;
+    left: 36px;
+}
+
+.slider-img-text-header{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 62px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.slider-img-text-describe{
+    color: #000000;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+
+.slider-img-text-link{
+    display: flex;
+    height: 32px;
+    width: 120px;
+    background-color: #000000;
+}
+
+.slider-img-text-link p{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.slider-img-text-link:hover{
+    transition: 0.3s;
+    background-color: #9e8b60;
+}
+
+/* Shop product img */
+
+.shop-img{
+    display: flex;
+    height: 378px;
+}
+
+.shop-product-img{
+    width: 33.3333%;
+    position: relative;
+}
+
+.shop-product-img-link{
+    display: block;
+}
+
+.shop-product-img-describe{
+    width: 100%;
+}
+
+.button-link{
+    padding-top: 6px;
+    padding-left: 24px;
+    width: 214px;
+    height: 36px;
+    background-color: #9e8b60;
+    color: #FFFFFF;
+    position: absolute;
+    display: block;
+    bottom: 38px;
+    right: 142px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button-link:hover{
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+.button-link:hover:before{
+    background-color: #9e8b60;
+}
+
+.button-link:hover .icon-active{
+    transition: 0.3s;
+    color: #000000;
+}
+
+.button-link::before{
+    content: "";
+    display: inline-block;
+    font-size: inherit;
+    position: absolute;
+    transition: all 0.3s;
+    right: 1.3em;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 11px;
+    top: .5em;
+    color: #CCCCCC;
+}
+
+.button-link i{
+    position: absolute;
+    right: 25px;
+    top: 11px;
+    font-weight: 900;
+    color: #CCCCCC;
+}
+
+/* Hitter Hits */
+
+.hitter-hits{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.hitter-hits-img{
+    height: 500px;
+}
+
+.hitter-hits-text{
+    position: absolute;
+    width: 28%;
+    top: 4%;
+    left: 36px;
+}
+
+.hitter-hits-text-header{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 78px;
+}
+
+.hitter-hits-text-describe{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: -0.6px;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+
+.hitter-hits-text-link{
+    display: flex;
+    height: 32px;
+    width: 120px;
+    background-color: #FFFFFF;
+}
+
+.hitter-hits-text-link p{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: auto;
+    color: #9e8b60;
+}
+
+.hitter-hits-text-link:hover{
+    transition: 0.3s;
+    background-color: #9e8b60;
+}
+
+.hitter-hits-text-link:hover p{
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+/* Trade shop imgs*/
+
+.trade-shop-img{
+    display: flex;
+    height: 378px;
+}
+
+.trade-shop-item-img{
+    width: 33.3333%;
+    position: relative;
+}
+
+.trade-shop-item-text{
+    position: absolute;
+    top: 1%;
+    left: 16px;
+}
+
+.trade-shop-item-text-header{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 49px;
+    font-weight: 600;
+}
+
+.trade-shop-item-button-link-1{
+    padding-top: 6px;
+    padding-left: 24px;
+    width: 150px;
+    height: 36px;
+    background-color: #9e8b60;
+    color: #FFFFFF;
+    position: absolute;
+    display: block;
+    top: 80px;
+    left: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.trade-shop-item-button-link-1::before{
+    content: "";
+    display: inline-block;
+    font-size: inherit;
+    position: absolute;
+    transition: all 0.3s;
+    right: 1.3em;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 11px;
+    top: .5em;
+    color: #CCCCCC;
+}
+
+.trade-shop-item-button-link-1:hover{
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+.trade-shop-item-button-link-1:hover:before{
+    background-color: #9e8b60;
+}
+
+.trade-shop-item-button-link-1:hover .icon-active{
+    transition: 0.3s;
+    color: #000000;
+}
+
+.trade-shop-item-button-link-1 i{
+    position: absolute;
+    right: 25px;
+    top: 11px;
+    font-weight: 900;
+    color: #CCCCCC;
+}
+
+.trade-shop-item-button-link-2{
+    padding-top: 6px;
+    padding-left: 24px;
+    width: 160px;
+    height: 36px;
+    background-color: #9e8b60;
+    color: #FFFFFF;
+    position: absolute;
+    display: block;
+    top: 80px;
+    left: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.trade-shop-item-button-link-2::before{
+    content: "";
+    display: inline-block;
+    font-size: inherit;
+    position: absolute;
+    transition: all 0.3s;
+    right: 1.3em;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 11px;
+    top: .5em;
+    color: #CCCCCC;
+}
+
+.trade-shop-item-button-link-2:hover{
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+.trade-shop-item-button-link-2:hover:before{
+    background-color: #9e8b60;
+}
+
+.trade-shop-item-button-link-2:hover .icon-active{
+    transition: 0.3s;
+    color: #000000;
+}
+
+.trade-shop-item-button-link-2 i{
+    position: absolute;
+    right: 25px;
+    top: 11px;
+    font-weight: 900;
+    color: #CCCCCC;
+}
+
+.trade-shop-item-button-link-3{
+    padding-top: 6px;
+    padding-left: 24px;
+    width: 184px;
+    height: 36px;
+    background-color: #9e8b60;
+    color: #FFFFFF;
+    position: absolute;
+    display: block;
+    top: 134px;
+    left: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.trade-shop-item-button-link-3::before{
+    content: "";
+    display: inline-block;
+    font-size: inherit;
+    position: absolute;
+    transition: all 0.3s;
+    right: 1.3em;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 11px;
+    top: .5em;
+    color: #CCCCCC;
+}
+
+.trade-shop-item-button-link-3:hover{
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+.trade-shop-item-button-link-3:hover:before{
+    background-color: #9e8b60;
+}
+
+.trade-shop-item-button-link-3:hover .icon-active{
+    transition: 0.3s;
+    color: #000000;
+}
+
+.trade-shop-item-button-link-3 i{
+    position: absolute;
+    right: 25px;
+    top: 11px;
+    font-weight: 900;
+    color: #CCCCCC;
+}
+/* Demarini material */
+
+.demarini-material{
+    width: 100%;
+    height: 340px;
+    position: relative;
+}
+
+.demarini-material-img{
+    height: 340px;
+}
+
+.demarini-material-button{
+    position: absolute;
+    display: flex;
+    width: 132px;
+    height: 32px;
+    background-color: #FFFFFF;
+    bottom: 56px;
+    right: 36px;
+}
+
+.demarini-material-button:hover{
+    background-color: #9e8b60;
+    transition: 0.3s;
+}
+
+.demarini-material-button p{
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    margin: auto;
+    color: #9e8b60;
+}
+
+.demarini-material-button:hover p{
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+/* Sign in last */
+
+.sign-in-last{
+    width: 100%;
+    height: 86px;
+    background-color: #CCCCCC;
+    padding: 24px;
+}
+
+.sign-in-last-container{
+    display: flex;
+    margin: 0 120px;
+}
+
+.sign-in-last-text{
+    padding-right: 32px;
+    width: 50%;
+}
+
+.sign-in-last-text h1{
+    color: #373534;
+    line-height: 36px;
+    text-align: right;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sign-up-form{
+    display: flex;
+    width: 38%;
+}
+
+.input-form{
+    width: 90%;
+    display: flex;
+}
+
+.input-form .form-group{
+    margin-bottom: 0;
+    flex: 8;
+}
+
+.input-form .sign-up-button{
+    background-color: #9e8b60;
+    flex: 2;
+    border: none;
+}
+
+.input-form .sign-up-button:hover{
+    background-color: #000000;
+    transition: 0.3s;
+}

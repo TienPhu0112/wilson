@@ -31,9 +31,9 @@ const sql = new mssql.Request();
 app.set("view engine","ejs");
 
 //tao routing cho trang chu
-/*app.get("/",function (req,res){
+app.get("/",function (req,res){
     res.send("Xinchao");
-});*/
+});
 
 app.get("/product-detail",function (req,res){
     res.render("productdetail");
@@ -46,4 +46,13 @@ app.get("/check-out",function (req,res){
 });
 app.get("/order-complete",function (req,res){
     res.render("ordercomplete");
-})
+});
+app.get("/contact-us",function (req,res){
+    res.render("contact-us");
+});
+app.get("/louisville",function (req,res){
+    res.render("louisville");
+});
+app.get("/demarini",function (req,res){
+    res.render("Demarini");
+});
