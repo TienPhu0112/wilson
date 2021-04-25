@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 /*css chung*/
@@ -39,7 +40,7 @@ footer a:hover{
     width: 30%;
 }
 .footer_follow-follows-us {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -57,7 +58,7 @@ footer a:hover{
 
 .follow_link_social li{
     list-style: none;
-    font-size: 22px;
+    font-size: 25px;
 }
 .follow_link_social div>ul{
     display: flex;
@@ -66,7 +67,7 @@ footer a:hover{
 }
 .follow_link_social div>ul>li{
     width: 35%;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -78,8 +79,8 @@ footer a:hover{
 }
 .footer .footer-right ul li{
     list-style: none;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     display: flex;
     padding-bottom: 30px;
 
@@ -97,15 +98,15 @@ footer a:hover{
 .footer .footer_branch p{
     width: 100%;
     font-size: 20px;
-    font-weight: 400;
-    margin: 150px 0 100px 0;
+    font-weight: 600;
+    margin: 100px 0 70px 0;
     padding-left:30px ;
 }
 
 .footer .footer_branch-branch{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 .footer .footer_branch-branch .branch_iterm{
     width: 33.33%;
@@ -128,4 +129,5 @@ opacity: 0.6;
 }
 .footer .footer_boottom{
     margin: 20px 0 50px 0;
+    font-size: 18px;
 }

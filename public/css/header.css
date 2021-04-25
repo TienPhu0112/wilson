@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
 }
 
 /*class chung*/
@@ -23,8 +25,13 @@
     top: 0;
 }
 /*-------------------*/
-header {
+.section_header{
+
+}
+
+.header {
     width: 100%;
+
 }
 .header_top{
     color: #FFFFFF;
@@ -107,7 +114,6 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 60px;
-    z-index: 2;
     background-color: #FFFFFF;
 }
 .navigation .logo_brand img{
@@ -132,6 +138,7 @@ header {
     line-height: 2;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     background-color: #FFFFFF;
+
 }
 .product_baseball{
     margin-left: -165px;
@@ -172,6 +179,7 @@ header {
     display: none;
     opacity: 0;
     transition:opacity 1000ms;
+
 }
 .navigation li.product-btn:hover .product_menu-item
 {
@@ -253,6 +261,28 @@ i.fa-chevron-up{
 }
 #nav_search-open:checked ~ .nav_search-none{
     display: block;
+}
+.pull-up{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    border: 2px solid #222222;
+    z-index: 10;
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+}
+.pull-up a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+    line-height: 40px;
+    scroll-behavior: smooth;
+}
+.pull-up:hover{
+    background-color: red;
 }
 .cartbtt{
     background-color: transparent;

@@ -1,18 +1,28 @@
 /*
 console.log("Hello world");//dang lam viec tren server*/
 
-const express = require("express"); // goi module express de su dung
-const app = express(); //xay nha-tao dich vu host
-const port = process.env.PORT || 5000;//su dung port cua file env, neu khong co file nay thi su dung port 5000
+const express = require("express");
+const morgan = require("morgan");
+const app = express();
 
-//tao web, start hosting nodejs port 5000
-app.listen(port,function (){
-    console.log("Server is running...");
+// start hosting nodejs port 5000
+const PORT = process.env.PORT || 5000;
+app.use(morgan("combined"));
+app.set("view engine", "ejs");
+
+app.listen(5000, function (){
+    console.log ("server is running......");
 });
+
+// ket noi db de lam viec voi du lieu
+
+
+const mssql = require("mssql");
+
 app.use(express.static("public"));//cho phep cac file tinh (css, js, imgs)
 
 // ket noi db de lam viec voi du lieu
-const mssql = require("mssql");
+
 const config = {
     server: "118.70.125.210",
     user: "sa",
@@ -28,7 +38,6 @@ mssql.connect(config,function(err){
 const sql = new mssql.Request();
 
 // khai bao web se dung view engine la ejs
-app.set("view engine","ejs");
 
 //tao routing cho trang chu
 app.get("/",function (req,res){
@@ -56,3 +65,15 @@ app.get("/louisville",function (req,res){
 app.get("/demarini",function (req,res){
     res.render("Demarini");
 });
+app.get("/Home",function (req,res){
+    res.render("home");
+});
+app.get("/Sign_in",function (req,res){
+    res.render("sign_in");
+});
+app.get("/Register",function (req,res){
+    res.render("register");
+});
+
+
+
