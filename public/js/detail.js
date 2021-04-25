@@ -5,7 +5,7 @@ var firsttime3 = true;
 var trigger1 = true;
 var trigger2 = true;
 
-function changeprice(size){
+/*function changeprice(size){
     var sizeS = document.getElementById("sizeS");
     var sizeM = document.getElementById("sizeM");
     var sizeL = document.getElementById("sizeL");
@@ -34,8 +34,8 @@ function changeprice(size){
         sizeL.style.border = "2px solid #CF102D";
         sizeL.style.color = "#CF102D";
     }
-}
-function onmouseoverSize(size){
+}*/
+/*function onmouseoverSize(size){
     var s = document.getElementById(size);
     s.style.border = "2px solid #CF102D";
     s.style.color = "#CF102D";
@@ -46,7 +46,7 @@ function onmouseoutSize(size){
         s.style.border = "2px solid lightgrey";
         s.style.color = "lightgrey";
     }
-}
+}*/
 function changeMark(id1,id2){
     if(document.getElementById(id1).style.display!='none') {
         if(id2=="mark1" && firsttime1==true) {

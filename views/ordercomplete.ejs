@@ -1,3 +1,4 @@
+<%- include('header.ejs') %>
 <!doctype html>
 <html lang="en">
 <head>
@@ -34,6 +35,7 @@
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', () => {
         localStorage.removeItem("cart");
+        document.getElementById('totalitem').innerText = '0';
     })
 </script>
 </body>

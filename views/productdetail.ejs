@@ -1,10 +1,10 @@
+<%- include('header.ejs') %>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Detail</title>
     <link rel="stylesheet" href="css/productdetail.css">
     <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css">
@@ -14,9 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
 </head>
 <body>
-<form id="cartshow" action="show-card" method="get">
-    <button type="submit"><span><i class="fas fa-shopping-cart"></i></span><span id="totalitem"></span></button>
-</form>
 <section class="col-md-12 detail section">
     <div class="container">
         <div class="row">
@@ -58,11 +55,20 @@
                             <tr>
                                 <td><b>Size</b></td>
                                 <td class="space">:</td>
+                                <td>
+                                    <select name="prodSize" class="form-control" >
+                                        <option value="S" selected>S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                    </select>
+                                <td>
+
+                                <!--
                                 <td class="size" id="sizeS" onclick="changeprice(this.id)" onmouseover="onmouseoverSize(this.id)" onmouseout="onmouseoutSize(this.id)">S</td>
                                 <td class="space"></td>
                                 <td class="size" id="sizeM" onclick="changeprice(this.id)" onmouseover="onmouseoverSize(this.id)" onmouseout="onmouseoutSize(this.id)">M</td>
                                 <td class="space"></td>
-                                <td class="size" id="sizeL" onclick="changeprice(this.id)" onmouseover="onmouseoverSize(this.id)" onmouseout="onmouseoutSize(this.id)">L</td>
+                                <td class="size" id="sizeL" onclick="changeprice(this.id)" onmouseover="onmouseoverSize(this.id)" onmouseout="onmouseoutSize(this.id)">L</td>-->
                             </tr>
                         </table>
                         <table class="quantity">
@@ -243,18 +249,6 @@
                 items:6
             }
         }
-    })
-    document.addEventListener('DOMContentLoaded', () => {
-        var cart = JSON.parse(localStorage.getItem("cart"));
-        var totalitem = 0;
-        if(cart!==null) {
-            for (var i = 0; i < cart.length; i++) {
-                var tmpitem = cart[i];
-                totalitem = totalitem  + parseInt(tmpitem.itemqtt);
-            }
-        }
-        document.getElementById('totalitem').innerText = totalitem;
-
     })
 </script>
 </body>
