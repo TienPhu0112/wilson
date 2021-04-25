@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #3c3c3c;
+}
+
+.font-size-18{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sign_in-link{
+
+    height: 80px;
+    border: 1px solid #BAB9B9;
+    margin: 20px 0 20px 0;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+
+}
+.sign_in-link .sign_in-img img{
+    width: 60px;
+    height: 60px;
+   margin: 10px 20px 10px 30px;
+}
+.sign_in-link  p{
+    line-height: 80px;
+}
+.sign_in-link:hover{
+    color: red;
+    border: 1px solid red;
+}
+.sign_in-facebook{
+    margin-top: 40px;
+}
+.sign_in-google{
+    margin-bottom:50px;
+}
+.form_sign-in p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+}
+.form_sign-in p a{
+color: #5f5e5e;
+}
+.form_sign-in label{
+    display: block;
+    margin: 5px 0;
+}
+.form_sign-in input{
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+}
+.form_sign-in button{
+   padding: 5px 10px;
+    font-size: 20px;
+
+    width: 100px;
+}
+.form_sign-in{
+    border-right: #dbd9d9 1px solid;
+}
+.register{
+    margin: 20px 0 0 100px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.register ul{
+    padding-left: 20px;
+}
+.register ul li{
+    padding-left: 10px;
+}
+.register button{
+    padding:0 10px;
+
+}
+.footer_bootom{
+     background-color: #d9d8d8;
+    padding: 20px 0;
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 2px;
+    width: 100%;
+}
+.sign_in{
+    border-bottom: 1px solid #3c3c3c;
+    padding-bottom: 40px;
+    margin-top: 50px;
+}
