@@ -60,12 +60,11 @@
     margin-top: 2px;
     width: 100%;
 }
-.sign_in{
+.sign_in {
     border-bottom: 1px solid #3c3c3c;
     padding-bottom: 40px;
     margin-top: 50px;
 }
-
-.register{
-
+.register button{
+padding: 5px 20px;
 }

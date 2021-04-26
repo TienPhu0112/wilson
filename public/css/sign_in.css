@@ -91,14 +91,14 @@ color: #5f5e5e;
 }
 .footer_bootom{
      background-color: #d9d8d8;
-    padding: 20px 0;
+    padding: 20px 0 20px 10px;
     font-size: 18px;
     opacity: 0.8;
-    margin-top: 2px;
     width: 100%;
+    border-top: 1px solid #3c3c3c;
+    margin-top: 40px;
 }
 .sign_in{
-    border-bottom: 1px solid #3c3c3c;
-    padding-bottom: 40px;
+
     margin-top: 50px;
 }

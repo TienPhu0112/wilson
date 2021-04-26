@@ -23,6 +23,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 /*-------------------*/
 .section_header{
@@ -31,7 +32,7 @@
 
 .header {
     width: 100%;
-
+    z-index: 10;
 }
 .header_top{
     color: #FFFFFF;
@@ -144,19 +145,19 @@
     margin-left: -165px;
 }
 .product_basketball{
-    margin-left: -300px;
+    margin-left: -295px;
 }
 .product_football{
-    margin-left: -456px;
+    margin-left: -445px;
 }
 .product_tennis{
-    margin-left: -593px;
+    margin-left: -575px;
 }
 .product_running{
-    margin-left: -705px;
+    margin-left: -683px;
 }
 .product_more{
-    margin-left: -834px;
+    margin-left: -807px;
 }
 .product_menu .product_menu-item li{
 
@@ -267,12 +268,14 @@ i.fa-chevron-up{
     height: 40px;
     position: fixed;
     bottom: 50px;
-    right: 30px;
+    right: 10px;
     border: 2px solid #222222;
     z-index: 10;
     font-size: 20px;
     color: #222222;
     text-align: center;
+    scroll-behavior: smooth;
+    background-color: #c0a16b;
 }
 .pull-up a{
     font-size: 20px;
@@ -312,3 +315,4 @@ i.fa-chevron-up{
     color: white;
 
 }
+

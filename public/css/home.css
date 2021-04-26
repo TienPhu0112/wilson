@@ -253,3 +253,12 @@ width: 100%;
     80%{transform: translateX(5px)}
     100%{transform: translateX(0px)}
 }
+.header{
+    position: relative;
+    z-index: 10;
+    background-color: whitesmoke;
+}
+.section.main{
+    z-index: 1;
+    position: relative;
+}

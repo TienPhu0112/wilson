@@ -74,6 +74,21 @@ app.get("/Sign_in",function (req,res){
 app.get("/Register",function (req,res){
     res.render("register");
 });
+app.get("/header",function (req,res){
+    res.render("header.ejs");
+});
+app.get("/footer_min",function (req,res){
+    res.render("footer_min.ejs");
+});
+app.get("/header_min",function (req,res){
+    res.render("header_min.ejs");
+});
+app.get("/footer",function (req,res){
+    res.render("footer.ejs");
+});
+
+
+
 
 
 
