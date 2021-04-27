@@ -101,6 +101,7 @@
         </div>
     </div>
 </section>
+<%- include('footer_Loan.ejs') %>
 <script type="text/javascript" src="js/detail.js"></script>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', () => {
@@ -125,8 +126,8 @@
                     "                            <img src='" + tmpitem.itemphoto + "'/>" +
                     "                            <div class='yourcartcontent'>" +
                     "                                <h4 class='itemname'>" + tmpitem.itemname + "</h4>" +
-                    "                                <p><b>SKU:</b><span>WBW10024012</span></p>" +
-                    "                                <p><b>Glove Size:</b><span>12\"</span></p>" +
+                    "                                <p><b>SKU:</b><span>" + tmpitem.itemid + "</span></p>" +
+                    "                                <p><b>Glove Size:</b><span>12</span></p>" +
                     "                                <p><b>Throwing Hand:</b><span>Right</span></p>" +
                     "                                <p><b>Price:</b><span>$" + tmpitem.itemprice + "</span></p>" +
                     "                                <p>" +

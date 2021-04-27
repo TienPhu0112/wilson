@@ -127,6 +127,7 @@ function remove(itemid) {
             item = items[i];
         }
     }
+
     var cart = JSON.parse(localStorage.getItem("cart"));
     /*var count = 0;*/
     if(cart!==null){
@@ -150,7 +151,7 @@ function  additem(){
     }
     var itemid = document.getElementById("productsname").getAttribute("proId");
     var itemname = document.getElementById("productsname").innerText;
-    var itemprice = parseInt(document.getElementById("productsname").getAttribute("value"));
+    var itemprice = parseInt(document.getElementById("productsprice").innerText);
     var itemqtt = parseInt(document.getElementById("prodductsqtt").value);
     var itemphoto = document.getElementById("myImg").getAttribute("src");
     var item = {
@@ -200,7 +201,7 @@ function showcart(){
                 "                            <img src='" + tmpitem.itemphoto + "'/>" +
                 "                            <div class='yourcartcontent'>" +
                 "                                <h4 class='itemname'>" + tmpitem.itemname + "</h4>" +
-                "                                <p><b>SKU:</b><span>WBW10024012</span></p>" +
+                "                                <p><b>SKU:</b><span>" + tmpitem.itemid + "</span></p>" +
                 "                                <p><b>Glove Size:</b><span>12\"</span></p>" +
                 "                                <p><b>Throwing Hand:</b><span>Right</span></p>" +
                 "                                <p><b>Price:</b><span>$" + tmpitem.itemprice + "</span></p>" +

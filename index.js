@@ -45,7 +45,22 @@ app.get("/",function (req,res){
 });
 
 app.get("/product-detail",function (req,res){
-    res.render("productdetail");
+    /*req.query.prodcode = '1';*/
+    var prodcd = '1234567890';
+    var txt_sql = "Select * from Nhom3_Product where ProductCode = '" + prodcd + "'";
+    console.log(txt_sql);
+    sql.query(txt_sql,function (err,rows){
+        if(err) res.send("Khong co don hang nao ca");
+        else {
+            if(rows.recordset.length>0) {
+                var prod = rows.recordset[0];
+                res.render("productdetail", {
+                    prod: prod
+                })
+            }
+        }
+    })
+
 });
 app.get("/show-card",function (req,res){
     res.render("showcard");

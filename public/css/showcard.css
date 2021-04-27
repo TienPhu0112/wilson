@@ -6,6 +6,8 @@
 }
 .body{
     width: 100%;
+}
+.mainSection{
     background-color: #fafafa;
 }
 .section{
@@ -127,12 +129,17 @@
     pointer-events: none;
 }
 .rigtbtt{
-    margin-left: 50px;
+    margin-top: -65px;
+    margin-left: 140px;
     float: left;
 }
 .checkoutbtt:hover{
-    background-color: #FFF;
+    background-color: transparent;
     color: #CF102D;
+}
+.checkoutbtt:hover .backtohometxt{
+    color:#CF102D;
+    text-decoration: none;
 }
 .dessec{
     margin-top: 40px;
@@ -295,11 +302,12 @@
     margin-top: 100px;
 }
 .inputfield{
+    width: 100%;
     float: left;
     margin-top: 20px;
 }
 .inputvalue{
-    margin-left: -100px;
+    margin-left: -50px;
     margin-top: -5px;
     width: 80%;
 }
@@ -307,4 +315,12 @@
     float: left;
     width: 631.79px;
     text-align: center;
+}
+.backtohometxt{
+    color: white;
+    text-decoration: none;
+}
+.backtohometxt:hover{
+    color:#CF102D;
+    text-decoration: none;
 }

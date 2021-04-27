@@ -27,11 +27,12 @@
         <div class="row">
             <div class="center">
                 <p>Your order was created successfully. Thank you so much!</p><br>
-                <button type="submit" class="checkoutbtt" onclick="/.">BACK TO HOME</button>
+                <button type="submit" class="checkoutbtt"><a href="/Home" class="backtohometxt">BACK TO HOME</a></button>
             </div>
         </div>
     </div>
 </section>
+<%- include('footer_Loan.ejs') %>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', () => {
         localStorage.removeItem("cart");

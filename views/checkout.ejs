@@ -33,7 +33,7 @@
                 <div class="cartleftside">
                     <div class="signin">
                         <h5>Sign in to order faster</h5>
-                        <button type="submit" class="checkoutbtt" onclick="/.">SIGN IN</button>
+                        <button type="submit" class="checkoutbtt"><a href="/Sign_in" class="backtohometxt">SIGN IN</a></button>
                     </div>
                     <form class="yourcartbody" action="order-complete" method="get"  id="contact_form">
                         <fieldset>
@@ -43,10 +43,10 @@
                                 <!-- Text input username-->
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">User Name</label>
-                                    <div class="inputvalue col-md-4 inputGroupContainer">
+                                    <div class="inputvalue inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                            <input name="username" placeholder="Enter text Username" class="form-control"  type="text">
+                                            <input name="username" placeholder="" class="form-control"  type="text">
                                         </div>
                                     </div>
                                 </div>
@@ -54,28 +54,28 @@
                                 <!-- Text input Email-->
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">E-Mail</label>
-                                    <div class="inputvalue col-md-4 inputGroupContainer">
+                                    <div class="inputvalue inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                            <input name="email" placeholder="Enter text E-Mail Address" class="form-control"  type="text">
+                                            <input name="email" placeholder="" class="form-control"  type="text">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">Phone</label>
-                                    <div class="inputvalue col-md-4 inputGroupContainer">
+                                    <div class="inputvalue inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                                            <input name="phone" placeholder="0967491829" data-format="+84(ddd)ddd-ddd" class="form-control" type="text" >
+                                            <input name="phone" placeholder="" data-format="+84(ddd)ddd-ddd" class="form-control" type="text" >
                                         </div>
                                     </div>
                                 </div>
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">Address</label>
-                                    <div class="inputvalue col-md-4 inputGroupContainer">
+                                    <div class="inputvalue inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-tasks"></i></span>
-                                            <input name="address" placeholder="Enter your address" class="form-control"  type="text">
+                                            <input name="address" placeholder="" class="form-control"  type="text">
                                         </div>
                                     </div>
                                 </div>
@@ -84,14 +84,13 @@
                                 <h3>2. Shipping Method</h3>
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">Ship Option</label>
-                                    <div class="inputvalue col-md-4 selectContainer">
+                                    <div class="inputvalue selectContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
                                             <select name="shipoption" class="form-control select
                                             ]=picker" >
-                                                <option value=" " >Please select your shipping option</option>
-                                                <option>Receive at the store</option>
-                                                <option>Shipping to your address</option>
+                                                <option>Receive at store</option>
+                                                <option>Door to Door</option>
                                             </select>
                                         </div>
                                     </div>
@@ -101,11 +100,10 @@
                                 <h3>3. Payment Method</h3>
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">Payment</label>
-                                    <div class="inputvalue col-md-4 selectContainer">
+                                    <div class="inputvalue selectContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
                                             <select name="payoption" class="form-control selectpicker" >
-                                                <option value=" " >Please select your payment option</option>
                                                 <option>Paypal</option>
                                                 <option>Master Cart</option>
                                                 <option>Visa</option>
@@ -117,19 +115,19 @@
                                 </div>
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">Card Holder</label>
-                                    <div class="inputvalue col-md-4 inputGroupContainer">
+                                    <div class="inputvalue inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-tasks"></i></span>
-                                            <input name="cardholder" placeholder="Enter your card holder" class="form-control"  type="text">
+                                            <input name="cardholder" placeholder="" class="form-control"  type="text">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="inputfield form-group">
                                     <label class="col-md-4 control-label">Card Number</label>
-                                    <div class="inputvalue col-md-4 inputGroupContainer">
+                                    <div class="inputvalue inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-tasks"></i></span>
-                                            <input name="cardnumber" placeholder="Enter your card number" class="form-control"  type="text">
+                                            <input name="cardnumber" placeholder="" class="form-control" type="text">
                                         </div>
                                     </div>
                                 </div>
@@ -198,6 +196,7 @@
         </div>
     </div>
 </section>
+<%- include('footer_Loan.ejs') %>
 <script type="text/javascript" src="js/detail.js"></script>
 <script src='libs/jquery/jquery-3.5.1.min.js'></script>
 <script src='libs/bootstrap3.4.1/js/bootstrap.js'></script>
