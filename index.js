@@ -45,8 +45,7 @@ app.get("/",function (req,res){
 });
 
 app.get("/product-detail",function (req,res){
-    /*req.query.prodcode = '1';*/
-    var prodcd = '1234567890';
+    var prodcd = req.query.prodcode;
     var txt_sql = "Select * from Nhom3_Product where ProductCode = '" + prodcd + "'";
     console.log(txt_sql);
     sql.query(txt_sql,function (err,rows){
