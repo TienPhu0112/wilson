@@ -100,6 +100,9 @@ app.get("/header_min",function (req,res){
 app.get("/footer",function (req,res){
     res.render("footer.ejs");
 });
+app.get("/pop-up_sign-in",function (req,res){
+    res.render("pop-up_sign-in.ejs");
+});
 
 
 
