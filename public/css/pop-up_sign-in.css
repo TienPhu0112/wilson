@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #3c3c3c;
+}
+
+.font-size-18{
+    font-size: 18px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+.margin-top-10{
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    background-color: #eceaea;
+    max-width: 100%;
+}
+.sign_in-link{
+
+    height: 40px;
+    border: 1px solid #BAB9B9;
+    margin: 10px 0 10px 60px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    width: 350px;
+
+}
+.sign_in-link .sign_in-img img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 20px 5px 30px;
+}
+.sign_in-link  p{
+    line-height: 40px;
+}
+.sign_in-link:hover{
+    color: red;
+    border: 1px solid red;
+}
+.sign_in-facebook{
+    margin-top: 10px;
+}
+.sign_in-google{
+    margin-bottom:10px;
+}
+.form_sign-in p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+.form_sign-in p a{
+    color: #5f5e5e;
+}
+.form_sign-in label{
+    display: block;
+    margin: 5px 0;
+}
+.form_sign-in input{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+}
+.form_sign-in button{
+
+    font-size: 20px;
+    width: 100px;
+    margin:  0 185px 20px 185px ;
+
+}
+.form div{
+    padding-left:60px;
+}
+.button-close{
+
+}
+.button-close-sign-in{
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    position:relative;
+    top: 5px ;
+    right: 10px;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+#close_pop-up_sign-in:checked ~ .sign_in{
+    display: none;
+}
+#close_pop-up_sign-in:checked ~ .page_pop-sign-in{
+    display: none;
+}
+.sign_in{
+    position: fixed;
+    top:150px;
+    left: 500px;
+    z-index: 10000;
+    width: 500px;
+}
+.page_pop-sign-in{
+    width: 100%;
+    height: 1000px;
+    background-color: #9d9d9d;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+
+

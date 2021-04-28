@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/pop-up_sign-in.css">
+    <link rel="stylesheet" href="libs/fontaw5.15.1/css/all.css">
+</head>
+<body>
+
+    <input type="checkbox" hidden name="" id="close_pop-up_sign-in"/>
+    <div class="page_pop-sign-in"></div>
+    <div class="sign_in">
+
+        <div class="container ">
+            <div class="button-close-sign-in">
+                <label for="close_pop-up_sign-in"><i class="far fa-times-circle"></i></label>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-md-offset-0">
+                    <p class="font-size-18 margin-top-10" >SIGN IN WITH YOUR EXISTING ACCOUNT</p>
+                    <div class="sign_in-facebook sign_in-link">
+                        <div class="sign_in-img">
+                            <img src="imgs/img_luong/Capturefacebook.PNG">
+                        </div>
+                        <p>SIGN IN WITH FACEBOOK</p>
+
+                    </div>
+                    <div class="sign_in-google sign_in-link">
+                        <div class="sign_in-img">
+                            <img src="imgs/img_luong/Capturegoogle.PNG">
+                        </div>
+                        <p>SIGN IN WITH GOOGLE</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="form_sign-in col-md-12">
+                    <form action="#" method="post" class="form" id="form_sign-in">
+                        <p>Sign in to your account</p>
+                        <div class="form-group ">
+                            <label for="email" class="form-label">Email:</label>
+                            <input id="email" name="email" type="email"  required placeholder="EXP: email@domain.com" class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                        <div class="form-group ">
+                            <label for="password" class="form-label">password:</label>
+                            <input id="password" name="password" type="password" required placeholder="password" class="form-control">
+                            <span class="form-message"></span>
+                        </div>
+                        <p><a href="#">Forgot Your Password?</a></p>
+                        <button type="submit" ><a href="http://localhost:5000/home">LOGIN</a></button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        $(".page_pop-sign-in").hide();
+        $(".sign_in").hide();
+        setTimeout(function (){
+            $(".sign_in").show();
+            $(".page_pop-sign-in").show();
+        },3000);
+    </script>
+</body>
+</html>
