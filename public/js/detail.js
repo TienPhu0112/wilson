@@ -144,7 +144,7 @@ function remove(itemid) {
     window.open('show-card','_self');
 }
 
-function  additem(){
+function  additem(prodcode){
     var cart=[];
     if(JSON.parse(localStorage.getItem("cart"))!==null){
         cart = JSON.parse(localStorage.getItem("cart"));
@@ -178,7 +178,7 @@ function  additem(){
         cart.push(item);
         localStorage.setItem("cart",JSON.stringify(cart));
     }
-    window.open('product-detail','_self');
+    window.open('product-detail?prodcode='+prodcode,'_self');
 }
 function showcart(){
 /*    alert("OK");
