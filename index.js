@@ -1,7 +1,7 @@
 /*
 console.log("Hello world");//dang lam viec tren server*/
 
-<<<<<<< HEAD
+
 const express = require("express");
 const morgan = require("morgan");
 const app = express();
@@ -110,7 +110,6 @@ app.get("/pop-up_sign-in",function (req,res){
 
 
 
-=======
 const express = require("express"); // goi module express de su dung
 const app = express(); //xay nha-tao dich vu host
 const port = process.env.PORT || 3000;//su dung port cua file env, neu khong co file nay thi su dung port 5000
@@ -124,4 +123,3 @@ app.use(express.static("public"));//cho phep cac file tinh (css, js, imgs)
 app.get("/",function (req,res){
     res.send("Xinchao");
 });
->>>>>>> deaafd0 (aa)
