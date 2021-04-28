@@ -1,0 +1,23 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.main-content-about-us li{
+    text-decoration: none;
+    list-style: none;
+}
+.main-content-about-us a{
+    color: white;
+}
+.main-content-about-us h1{
+    color: white;
+}
+.about-us-nav{
+    position: absolute;
+    margin-top: -180px;
+}
+.cover-img-2{
+    width: 100%;
+    height: auto;
+    color: rgba(0,0,0,0.5)
+}
