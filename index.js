@@ -46,7 +46,7 @@ app.get("/",function (req,res){
 
 app.get("/product-detail",function (req,res){
     var prodcd = req.query.prodcode;
-    var txt_sql = "Select * from Nhom3_Product where ProductCode = '" + prodcd + "'";
+    var txt_sql = "Select * from Nhom3_Product where ProductCode like '"+prodcd+"'";
     console.log(txt_sql);
     sql.query(txt_sql,function (err,rows){
         if(err) res.send("Khong co don hang nao ca");
