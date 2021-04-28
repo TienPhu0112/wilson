@@ -19,6 +19,7 @@
 </head>
 <body>
 <%- include("header.ejs");%>
+<%- include("pop-up_sign-in.ejs");%>
 <section class=" section main">
     <div class="slider">
         <div id="wrapper">
@@ -350,6 +351,8 @@
     });
 
 
+    $(".TOP_RATING").hide();
+    $(".BEST_SELLERS").hide();
     function Show_LATEST_PRODUCTS(){
         var LATEST_PRODUCTS = $(".LATEST_PRODUCTS");
         var TOP_RATING = $(".TOP_RATING");
