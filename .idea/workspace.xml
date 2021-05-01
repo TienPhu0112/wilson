@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87a03a54-2f2b-4549-ac83-53fc7b92c468" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rYgHoMx56GqPViGTjZeAGEtFPF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\wilson\public\imgs\img_luong" />
+      <recent name="C:\Users\HP\wilson\public\libs" />
+      <recent name="C:\Users\HP\wilson" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87a03a54-2f2b-4549-ac83-53fc7b92c468" name="Default Changelist" comment="" />
+      <created>1619158365531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619158365531</updated>
+      <workItem from="1619158371165" duration="385000" />
+      <workItem from="1619159195314" duration="708000" />
+      <workItem from="1619159926863" duration="1504000" />
+      <workItem from="1619161482791" duration="21082000" />
+      <workItem from="1619205619224" duration="3642000" />
+      <workItem from="1619254392477" duration="641000" />
+      <workItem from="1619255344806" duration="5986000" />
+      <workItem from="1619320261689" duration="37359000" />
+      <workItem from="1619361533180" duration="872000" />
+      <workItem from="1619410054483" duration="11882000" />
+      <workItem from="1619515821591" duration="11276000" />
+      <workItem from="1619536930400" duration="1197000" />
+      <workItem from="1619538210835" duration="7330000" />
+      <workItem from="1619546519409" duration="442000" />
+      <workItem from="1619547384675" duration="827000" />
+      <workItem from="1619589323720" duration="4750000" />
+      <workItem from="1619601062570" duration="3064000" />
+      <workItem from="1619606989458" duration="4439000" />
+      <workItem from="1619692404418" duration="94000" />
+      <workItem from="1619877313080" duration="895000" />
+    </task>
+    <task id="LOCAL-00001" summary="home. register, sign_in">
+      <created>1619361645472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619361645472</updated>
+    </task>
+    <task id="LOCAL-00002" summary="home. register, sign_in">
+      <created>1619426194102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619426194102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="home. register, sign_in">
+      <created>1619531988996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619531988996</updated>
+    </task>
+    <task id="LOCAL-00004" summary="home. register, sign_in">
+      <created>1619545918175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619545918175</updated>
+    </task>
+    <task id="LOCAL-00005" summary="home. register, sign_in">
+      <created>1619589614059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619589614059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="home. register, sign_in">
+      <created>1619602027989</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619602027989</updated>
+    </task>
+    <task id="LOCAL-00007" summary="home. register, sign_in">
+      <created>1619602539729</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619602539729</updated>
+    </task>
+    <task id="LOCAL-00008" summary="home. register, sign_in">
+      <created>1619610181633</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619610181633</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="home. register, sign_in" />
+    <option name="LAST_COMMIT_MESSAGE" value="home. register, sign_in" />
+  </component>
+</project>

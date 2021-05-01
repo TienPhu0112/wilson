@@ -1,0 +1,606 @@
+Index: public/css/header.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/*class chung*/\r\n.hover_color_red{\r\n    color: #535353;\r\n}\r\n.hover_color_red:hover{\r\n    color: red;\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n}\r\n.hover_border-bottom:hover{\r\n    border-bottom: 3px solid  red;\r\n    cursor: pointer;\r\n}\r\n.sticky_0{\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    top: 0;\r\n}\r\n/*-------------------*/\r\nheader {\r\n    width: 100%;\r\n}\r\n.header_top{\r\n    color: #FFFFFF;\r\n    background-color: #8b8585;\r\n    text-align: center;\r\n    height: 45px;\r\n}\r\n.header_top p{\r\n    line-height: 45px;\r\n}\r\n.header_branch{\r\n    background-color: #eeeeee;\r\n\r\n}\r\n.header_branch .branch_iterm{\r\n    opacity: 0.5;\r\n}\r\n.header_branch .branch_iterm.logo{\r\n    opacity: 1;\r\n}\r\n.header_branch .branch_iterm:hover{\r\n    opacity: 1;\r\n}\r\n.header_branch-branch{\r\n    display: inline-block;\r\n\r\n}\r\n.header_branch .branch_iterm.logo{\r\n    width: 60px;\r\n}\r\n.header_branch .logo img{\r\n\r\n}\r\n.header_branch .branch_iterm{\r\n    display: inline-block;\r\n    margin-left: 20px ;\r\n}\r\n\r\n.img-Louisville{\r\n    width:130px;\r\n    display: inline-block;\r\n}\r\n.header_branch .branch_iterm.img-Atec{\r\n    width: 58px;\r\n}\r\n.header_branch .branch_iterm.img-demarini{\r\n    width: 100px;\r\n}\r\n.header_branch .branch_iterm.img-evoshield{\r\n    width: 130px;\r\n}\r\n.header_branch .branch_iterm.img-luxilon{\r\n    width: 70px;\r\n}\r\n\r\n.promo_box{\r\n\r\n    display: inline-block;\r\n    float: right;\r\n    height: 60px;\r\n}\r\n.promo_box ul li{\r\n    display: inline-block;\r\n    line-height: 60px;\r\n    font-size: 14px;\r\n    font-weight: 600;\r\n    padding: 0 5px;\r\n}\r\n\r\n.promo_box .img-flag{\r\n    width: 65px;\r\n    padding: 0 15px;\r\n}\r\n\r\n.navigation{\r\n    width: 100%;\r\n    height: 60px ;\r\n    border-bottom: 1px solid #A7A7A7;\r\n    display: inline-block;\r\n    font-size: 16px;\r\n    font-weight: 500;\r\n    line-height: 60px;\r\n    z-index: 2;\r\n    background-color: #FFFFFF;\r\n}\r\n.navigation .logo_brand img{\r\n   padding-bottom: 5px;\r\n}\r\n.navigation .navi,\r\n.navigation .navi .nav-item{\r\n    display: inline-block;\r\n    margin: 0 15px;\r\n}\r\n.navigation .navi .nav-item:hover{\r\n    border-bottom:  3px solid red;\r\n}\r\n\r\n\r\n.product_menu {\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    font-size: 16px;\r\n    position: absolute;\r\n    width: 100%;\r\n    line-height: 2;\r\n    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);\r\n    background-color: #FFFFFF;\r\n}\r\n.product_baseball{\r\n    margin-left: -165px;\r\n}\r\n.product_basketball{\r\n    margin-left: -300px;\r\n}\r\n.product_football{\r\n    margin-left: -456px;\r\n}\r\n.product_tennis{\r\n    margin-left: -593px;\r\n}\r\n.product_running{\r\n    margin-left: -705px;\r\n}\r\n.product_more{\r\n    margin-left: -834px;\r\n}\r\n.product_menu .product_menu-item li{\r\n\r\n    list-style: none;\r\n}\r\n.product_menu ul:first-child{\r\n    padding-left: 12px;\r\n}\r\n.product_menu .product_menu-item li a{\r\n    color:#3c3c3c;\r\n}\r\n.product_menu .product_menu-item li:first-child a{\r\n    color: red;\r\n}\r\n.product_menu .product_menu-item li:hover a {\r\n    color: red;\r\n}\r\n\r\n.product_menu .product_menu-item{\r\n    display: none;\r\n    opacity: 0;\r\n    transition:opacity 1000ms;\r\n}\r\n.navigation li.product-btn:hover .product_menu-item\r\n{\r\n    display:block;\r\n    opacity: 1;\r\n\r\n}\r\n.navigation .nav-link i{\r\n    margin-left: 5px;\r\n}\r\n.navigation  .product-btn .nav-link{\r\n    display: inline-block;\r\n    height: 60px;\r\n}\r\n.navigation  .product-btn .nav-link:hover{\r\nborder-bottom: 3px solid red ;\r\n}\r\ni.fa-chevron-up{\r\n    display: none;\r\n}\r\n.navigation  .product-btn .nav-link:hover .fa-chevron-down {\r\n    display: none;\r\n}\r\n.navigation  .product-btn .nav-link:hover .fa-chevron-up{\r\n    display: inline-block;\r\n}\r\n\r\n\r\n.navigation-right,\r\n.navigation-right li {\r\n    display: inline-block;\r\n    position: relative;\r\n    float: right;\r\n    font-size: 25px;\r\n    line-height: 57px;\r\n}\r\n.navigation-right li label{\r\n    padding: 0 20px;\r\n    border-left: 1px solid #d3d3d3;\r\n    line-height: 48px;\r\n}\r\n\r\n.nav_search{\r\n\r\n}\r\n.nav_search .nav_search-search {\r\n    display: flex;\r\n    justify-content: center;\r\n    width: 90%;\r\n    margin: 0 auto;\r\n\r\n}\r\n.nav_search .nav_search-search label, .nav_search .nav_search-search .button-search{\r\n    flex: 1;\r\n    font-size: 20px;\r\n    line-height: 35px ;\r\n    font-weight: 500;\r\n}\r\n.nav_search .nav_search-search .input-search{\r\n    flex: 20;\r\n    margin: 0 10px;\r\n    font-size: 20px;\r\n}\r\n.nav_search-none{\r\n    margin-top: 2px\r\n}\r\n.button-search-exit{\r\n    margin-left: 10px;\r\n    height: 100%;\r\n    width: 50px;\r\n}\r\n.button-search-exit label i{\r\n    height: 100%;\r\n    font-size: 35px;\r\n    font-weight: bold;\r\n}\r\n.nav_search-none{\r\n    display: none;\r\n}\r\n#nav_search-open:checked ~ .nav_search-none{\r\n    display: block;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/public/css/header.css b/public/css/header.css
+--- a/public/css/header.css	
++++ b/public/css/header.css	
+@@ -2,6 +2,8 @@
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
++    font-family: "Roboto", sans-serif;
++
+ }
+ 
+ /*class chung*/
+@@ -23,8 +25,13 @@
+     top: 0;
+ }
+ /*-------------------*/
+-header {
++.section_header{
++
++}
++
++.header {
+     width: 100%;
++
+ }
+ .header_top{
+     color: #FFFFFF;
+@@ -107,7 +114,6 @@
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 60px;
+-    z-index: 2;
+     background-color: #FFFFFF;
+ }
+ .navigation .logo_brand img{
+@@ -132,6 +138,7 @@
+     line-height: 2;
+     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+     background-color: #FFFFFF;
++
+ }
+ .product_baseball{
+     margin-left: -165px;
+@@ -172,6 +179,7 @@
+     display: none;
+     opacity: 0;
+     transition:opacity 1000ms;
++
+ }
+ .navigation li.product-btn:hover .product_menu-item
+ {
+@@ -254,3 +262,25 @@
+ #nav_search-open:checked ~ .nav_search-none{
+     display: block;
+ }
++.pull-up{
++    width: 40px;
++    height: 40px;
++    position: fixed;
++    bottom: 50px;
++    right: 30px;
++    border: 2px solid #222222;
++    z-index: 10;
++    font-size: 20px;
++    color: #222222;
++    text-align: center;
++}
++.pull-up a{
++    font-size: 20px;
++    font-weight: 600;
++    color: #222222;
++    line-height: 40px;
++    scroll-behavior: smooth;
++}
++.pull-up:hover{
++    background-color: red;
++}
+\ No newline at end of file
+Index: public/css/footer.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/*css chung*/\r\n.margin_left_top-30{\r\n    padding-left: 30px;\r\n    padding-right: 30px;\r\n}\r\n/* end css chung*/\r\nfooter{\r\n    background-color: #eeeeee;\r\n}\r\nfooter a{\r\n    color: #3c3c3c;\r\n}\r\nfooter a:hover{\r\n    color: #3c3c3c;\r\n}\r\n.footer_top{\r\n    margin-top: 100px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n.footer .footer_logo{\r\n\r\n}\r\n.footer_logo{\r\n    width: 30%;\r\n\r\n}\r\n.footer_logo-logo{\r\n    width: 150px;\r\n}\r\n.footer_follow{\r\n    width: 30%;\r\n}\r\n.footer_follow-follows-us {\r\n    font-size: 18px;\r\n    font-weight: 500;\r\n}\r\n\r\n.follow_link_social>ul{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    border-bottom: #646363 solid 1px;\r\n    padding: 10px 0;\r\n    width: 80%;\r\n\r\n}\r\n.follow_link_social>ul>li a:hover{\r\n    color: red;\r\n}\r\n\r\n.follow_link_social li{\r\n    list-style: none;\r\n    font-size: 22px;\r\n}\r\n.follow_link_social div>ul{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    flex-wrap: wrap;\r\n}\r\n.follow_link_social div>ul>li{\r\n    width: 35%;\r\n    font-size: 16px;\r\n    font-weight: 400;\r\n}\r\n\r\n.footer .footer-right{\r\n    width: 30%;\r\n\r\n    padding-right: 10px;\r\n\r\n}\r\n.footer .footer-right ul li{\r\n    list-style: none;\r\n    font-size: 18px;\r\n    font-weight: 500;\r\n    display: flex;\r\n    padding-bottom: 30px;\r\n\r\n}\r\n.footer .footer-right ul li i{\r\n    padding-right: 10px;\r\n    font-size: 25px;\r\n}\r\n\r\n/*--------footer branch------------------*/\r\n.footer .footer_branch{\r\n    border-bottom: 1px  solid #3c3c3c;\r\n\r\n}\r\n.footer .footer_branch p{\r\n    width: 100%;\r\n    font-size: 20px;\r\n    font-weight: 400;\r\n    margin: 150px 0 100px 0;\r\n    padding-left:30px ;\r\n}\r\n\r\n.footer .footer_branch-branch{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    margin-bottom: 100px;\r\n}\r\n.footer .footer_branch-branch .branch_iterm{\r\n    width: 33.33%;\r\n    padding-left: 30px;\r\n\r\n}\r\n.footer .footer_branch-branch .branch_iterm .img{\r\n    width: 50%;\r\n}\r\n.footer .footer_branch-branch .branch_iterm img{\r\nopacity: 0.6;\r\n}\r\n.footer .footer_branch-branch .branch_iterm img:hover{\r\n    opacity: 1;\r\n}\r\n.footer .footer_branch-branch .branch_iterm.img-Louisville .img,\r\n.footer .footer_branch-branch .branch_iterm.img-demarini .img{\r\n    width: 60%;\r\n    margin: 100px 0 100px 0 ;\r\n}\r\n.footer .footer_boottom{\r\n    margin: 20px 0 50px 0;\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/public/css/footer.css b/public/css/footer.css
+--- a/public/css/footer.css	
++++ b/public/css/footer.css	
+@@ -2,6 +2,7 @@
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
++    font-family: "Roboto", sans-serif;
+ }
+ 
+ /*css chung*/
+@@ -39,7 +40,7 @@
+     width: 30%;
+ }
+ .footer_follow-follows-us {
+-    font-size: 18px;
++    font-size: 22px;
+     font-weight: 500;
+ }
+ 
+@@ -57,7 +58,7 @@
+ 
+ .follow_link_social li{
+     list-style: none;
+-    font-size: 22px;
++    font-size: 25px;
+ }
+ .follow_link_social div>ul{
+     display: flex;
+@@ -66,7 +67,7 @@
+ }
+ .follow_link_social div>ul>li{
+     width: 35%;
+-    font-size: 16px;
++    font-size: 20px;
+     font-weight: 400;
+ }
+ 
+@@ -78,8 +79,8 @@
+ }
+ .footer .footer-right ul li{
+     list-style: none;
+-    font-size: 18px;
+-    font-weight: 500;
++    font-size: 20px;
++    font-weight: 600;
+     display: flex;
+     padding-bottom: 30px;
+ 
+@@ -97,15 +98,15 @@
+ .footer .footer_branch p{
+     width: 100%;
+     font-size: 20px;
+-    font-weight: 400;
+-    margin: 150px 0 100px 0;
++    font-weight: 600;
++    margin: 100px 0 70px 0;
+     padding-left:30px ;
+ }
+ 
+ .footer .footer_branch-branch{
+     display: flex;
+     flex-wrap: wrap;
+-    margin-bottom: 100px;
++    margin-bottom: 10px;
+ }
+ .footer .footer_branch-branch .branch_iterm{
+     width: 33.33%;
+@@ -128,4 +129,5 @@
+ }
+ .footer .footer_boottom{
+     margin: 20px 0 50px 0;
++    font-size: 18px;
+ }
+Index: views/footer.ejs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Header</title>\r\n    <link rel=\"stylesheet\" href=\"libs/bootstrap3.4.1/css/bootstrap.min.css\" type=\"text/css\"/>\r\n    <link rel=\"stylesheet\" href=\"css/header.css\" type=\"text/css\"/>\r\n    <link rel=\"stylesheet\" href=\"libs/fontaw5.15.1/css/all.css\">\r\n    <script src=\"libs/jquery/jquery-3.5.1.min.js\"></script>\r\n\r\n\r\n\r\n</head>\r\n<body>\r\n<header class=\"header\">\r\n    <div class=\"container-fluid\">\r\n        <div class=\"row\">\r\n            <div class=\"header_top\">\r\n                <p>FREE SHIPPING ON ORDERS OVER $100</p>\r\n            </div>\r\n        </div>\r\n        <div class=\"row header_branch\">\r\n            <div class=\"header_branch-branch\">\r\n                <div class=\"branch_iterm logo\">\r\n                    <div class=\"img-logo\"><a href=\"#\" ><img src=\"imgs/img_luong/wilson_w.svg\" alt=\"wilson\"></a></div>\r\n                </div>\r\n                <div class=\"branch_iterm img-Louisville\">\r\n                    <div class=\"img \"><a href=\"#\"><img src=\"imgs/img_luong/Louisville.svg\" alt=\"Louisville\"></a> </div>\r\n                </div>\r\n                <div class=\"branch_iterm img-Atec\">\r\n                    <div class=\"img\"><a href=\"#\"><img src=\"imgs/img_luong/ATEC-Primary-Logo.svg\" alt=\"Atec\"></a> </div>\r\n                </div>\r\n                <div class=\"branch_iterm img-demarini\">\r\n                    <div class=\"img\"><a href=\"#\"><img src=\"imgs/img_luong/demarini_fob.svg\" alt=\"demarini\"></a> </div>\r\n                </div>\r\n                <div class=\"branch_iterm img-evoshield\">\r\n                    <div class=\"img\"><a href=\"#\"><img src=\"imgs/img_luong/evoshield-fob.svg\" alt=\"evoshield\"></a> </div>\r\n                </div>\r\n                <div class=\"branch_iterm img-luxilon\">\r\n                    <div class=\"img\"><a href=\"#\"><img src=\"imgs/img_luong/Luxilon_sub_fob.svg\" alt=\"luxilon\"></a> </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"promo_box\">\r\n                <ul>\r\n                    <li class=\"hover_color_red\">SIGN IN</li>\r\n                    <li>|</li>\r\n                    <li class=\"hover_color_red\"> <i class=\"fas fa-map-marker-alt\"></i> FIND A DEALER</li>\r\n                    <li class=\"img-flag hover_color_red\"><img src=\"imgs/img_luong/flag_en.svg\"></li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n\r\n    </div>\r\n</header>\r\n\r\n<div class=\"container-fluid sticky_0\">\r\n    <div class=\"row \">\r\n        <nav class=\"navigation \">\r\n            <!--  ------------------ logo----------->\r\n            <div class=\"logo_brand img-Louisville \">\r\n                <a href=\"#\"><img src=\"imgs/img_luong/Louisville.svg\" alt=\"branch\"></a>\r\n            </div>\r\n            <!-------------------end logo---------->\r\n            <ul class=\"navi\">\r\n                <li class=\"nav-item  product-btn\">\r\n                    <a class=\"nav-link hover_color_red \"  href=\"#\"> BASEBALL<i class=\"fas fa-chevron-down\"></i><i class=\"fas fa-chevron-up\"></i></a>\r\n                    <div class=\"product_menu product_baseball\">\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">ALUMINUM & COMPOSITE BATS</a></li>\r\n                            <li><a href=\"#\">Custom Bats</a></li>\r\n                            <li><a href=\"#\">BBCOR</a></li>\r\n                            <li><a href=\"#\">USSSA</a></li>\r\n                            <li><a href=\"#\">Junior Big Barrel</a></li>\r\n                            <li><a href=\"#\">Yout/USA Baseball</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">WOOD BATS</a></li>\r\n                            <li><a href=\"#\">MLB Prime</a></li>\r\n                            <li><a href=\"#\">Fungo</a></li>\r\n                            <li><a href=\"#\">Maple</a></li>\r\n                            <li><a href=\"#\">Birch</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                    </div>\r\n                </li>\r\n                <li class=\"nav-item product-btn\">\r\n                    <a class=\"nav-link hover_color_red\" href=\"#\">BASKETBALL<i class=\"fas fa-chevron-down\"></i><i class=\"fas fa-chevron-up\"></i></a>\r\n                    <div class=\"product_menu product_basketball\">\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">ALUMINUM & COMPOSITE BATS</a></li>\r\n                            <li><a href=\"#\">Custom Bats</a></li>\r\n                            <li><a href=\"#\">BBCOR</a></li>\r\n                            <li><a href=\"#\">USSSA</a></li>\r\n                            <li><a href=\"#\">Junior Big Barrel</a></li>\r\n                            <li><a href=\"#\">Yout/USA Baseball</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">WOOD BATS</a></li>\r\n                            <li><a href=\"#\">MLB Prime</a></li>\r\n                            <li><a href=\"#\">Fungo</a></li>\r\n                            <li><a href=\"#\">Maple</a></li>\r\n                            <li><a href=\"#\">Birch</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                    </div>\r\n                </li>\r\n                <li class=\"nav-item product-btn\">\r\n                    <a class=\"nav-link hover_color_red\" href=\"#\">FOOTBALL<i class=\"fas fa-chevron-down\"></i><i class=\"fas fa-chevron-up\"></i></a>\r\n                    <div class=\"product_menu product_football\">\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">ALUMINUM & COMPOSITE BATS</a></li>\r\n                            <li><a href=\"#\">Custom Bats</a></li>\r\n                            <li><a href=\"#\">BBCOR</a></li>\r\n                            <li><a href=\"#\">USSSA</a></li>\r\n                            <li><a href=\"#\">Junior Big Barrel</a></li>\r\n                            <li><a href=\"#\">Yout/USA Baseball</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">WOOD BATS</a></li>\r\n                            <li><a href=\"#\">MLB Prime</a></li>\r\n                            <li><a href=\"#\">Fungo</a></li>\r\n                            <li><a href=\"#\">Maple</a></li>\r\n                            <li><a href=\"#\">Birch</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                    </div>\r\n                </li>\r\n                <li class=\"nav-item product-btn\">\r\n                    <a class=\"nav-link hover_color_red\" href=\"#\">TENNIS<i class=\"fas fa-chevron-down\"></i><i class=\"fas fa-chevron-up\"></i></a>\r\n                    <div class=\"product_menu product_tennis\">\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">ALUMINUM & COMPOSITE BATS</a></li>\r\n                            <li><a href=\"#\">Custom Bats</a></li>\r\n                            <li><a href=\"#\">BBCOR</a></li>\r\n                            <li><a href=\"#\">USSSA</a></li>\r\n                            <li><a href=\"#\">Junior Big Barrel</a></li>\r\n                            <li><a href=\"#\">Yout/USA Baseball</a></li>\r\n                        </ul>\r\n                        <ul class=\"product_menu-item\">\r\n                            <li><a href=\"#\">WOOD BATS</a></li>\r\n                            <li><a href=\"#\">MLB Prime</a></li>\r\n                            <li><a href=\"#\">Fungo</a></li>\r\n                            <li><a href=\"#\">Maple</a></li>\r\n                            <li><a href=\"#\">Birch</a></li>\r\n                        </ul>\r\n                        <ul class=\"product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                        <ul class=\"product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                    </div>\r\n                </li>\r\n                <li class=\"nav-item product-btn\">\r\n                    <a class=\"nav-link hover_color_red\" href=\"#\">RUNNING<i class=\"fas fa-chevron-down\"></i><i class=\"fas fa-chevron-up\"></i></a>\r\n                    <div class=\"product_menu product_running\">\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">ALUMINUM & COMPOSITE BATS</a></li>\r\n                            <li><a href=\"#\">Custom Bats</a></li>\r\n                            <li><a href=\"#\">BBCOR</a></li>\r\n                            <li><a href=\"#\">USSSA</a></li>\r\n                            <li><a href=\"#\">Junior Big Barrel</a></li>\r\n                            <li><a href=\"#\">Yout/USA Baseball</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">WOOD BATS</a></li>\r\n                            <li><a href=\"#\">MLB Prime</a></li>\r\n                            <li><a href=\"#\">Fungo</a></li>\r\n                            <li><a href=\"#\">Maple</a></li>\r\n                            <li><a href=\"#\">Birch</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                        <ul class=\"product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                    </div>\r\n                </li>\r\n                <li class=\"nav-item product-btn\">\r\n                    <a class=\"nav-link hover_color_red\" href=\"#\">MORE<i class=\"fas fa-chevron-down\"></i><i class=\"fas fa-chevron-up\"></i></a>\r\n                    <div class=\"product_menu product_more\">\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">ALUMINUM & COMPOSITE BATS</a></li>\r\n                            <li><a href=\"#\">Custom Bats</a></li>\r\n                            <li><a href=\"#\">BBCOR</a></li>\r\n                            <li><a href=\"#\">USSSA</a></li>\r\n                            <li><a href=\"#\">Junior Big Barrel</a></li>\r\n                            <li><a href=\"#\">Yout/USA Baseball</a></li>\r\n                        </ul>\r\n                        <ul class=\" product_menu-item\">\r\n                            <li><a href=\"#\">WOOD BATS</a></li>\r\n                            <li><a href=\"#\">MLB Prime</a></li>\r\n                            <li><a href=\"#\">Fungo</a></li>\r\n                            <li><a href=\"#\">Maple</a></li>\r\n                            <li><a href=\"#\">Birch</a></li>\r\n                        </ul>\r\n                        <ul class=\"product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                        <ul class=\"product_menu-item\">\r\n                            <li><a href=\"#\">GLOVES</a></li>\r\n                            <li><a href=\"#\">Stick Pack</a></li>\r\n                            <li><a href=\"#\">Wheeled Bag</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                            <li><a href=\"#\">MLB Collection</a></li>\r\n                        </ul>\r\n                    </div>\r\n                </li>\r\n            </ul>\r\n            <ul class=\"navigation-right\">\r\n                <li class=\"hover_border-bottom\"><label><i class=\"fas fa-shopping-cart \"></i></label></li>\r\n                <li class=\"hover_border-bottom  search-btn\"><label for=\"nav_search-open\"><i class=\"fas fa-search hover_decoration\"></i></label>\r\n                </li>\r\n\r\n\r\n            </ul>\r\n        </nav>\r\n    </div>\r\n</div>\r\n<input type=\"checkbox\" hidden name=\"\" id=\"nav_search-open\"/>\r\n<div class=\"container-fluid nav_search-none\">\r\n\r\n    <div class=\"nav_search\">\r\n        <form class=\"form-group\" action=\"#\" method=\"post\">\r\n            <div class=\"nav_search-search\">\r\n                <label>SEARCH:</label>\r\n                <div class=\"input-search\">\r\n                    <input class=\"form-control\" style=\"font-size: 20px; height:40px\"name=\"search\" type=\"search\" placeholder=\"Search Product...\" >\r\n                </div>\r\n                <div class=\"button-search\">\r\n                    <button name=\"search\"  type=\"submit\" class=\"btn-default\">Search</button>\r\n                </div>\r\n                <div class=\"button-search-exit\">\r\n                    <label for=\"nav_search-open\"> <i class=\"fas fa-times\"></i></label>\r\n                </div>\r\n            </div>\r\n        </form>\r\n\r\n    </div>\r\n</div>\r\n\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/views/footer.ejs b/views/footer.ejs
+--- a/views/footer.ejs	
++++ b/views/footer.ejs	
+@@ -5,303 +5,78 @@
+     <meta name="viewport"
+           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+-    <title>Header</title>
++    <title>Footer</title>
+     <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.min.css" type="text/css"/>
+-    <link rel="stylesheet" href="css/header.css" type="text/css"/>
+-    <link rel="stylesheet" href="libs/fontaw5.15.1/css/all.css">
+-    <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+-
+-
+-
++    <link rel="stylesheet" href="css/footer.css" type="text/css"/>
++    <link rel="stylesheet" href="libs/fontawesome-free-5.15.1-web/css/all.css">
+ </head>
+ <body>
+-<header class="header">
++<footer class="footer">
+     <div class="container-fluid">
+-        <div class="row">
+-            <div class="header_top">
+-                <p>FREE SHIPPING ON ORDERS OVER $100</p>
++        <div class="row footer_top">
++            <div class="footer_logo">
++                <div class="footer_logo-logo"> <img src="imgs/img_luong/wilson_w.svg" href="#"> </div>
+             </div>
+-        </div>
+-        <div class="row header_branch">
+-            <div class="header_branch-branch">
+-                <div class="branch_iterm logo">
+-                    <div class="img-logo"><a href="#" ><img src="imgs/img_luong/wilson_w.svg" alt="wilson"></a></div>
++            <div class="footer_follow ">
++                <div class="footer_follow-follows-us">
++                    <P>FOLLOW US</P>
+                 </div>
+-                <div class="branch_iterm img-Louisville">
+-                    <div class="img "><a href="#"><img src="imgs/img_luong/Louisville.svg" alt="Louisville"></a> </div>
+-                </div>
+-                <div class="branch_iterm img-Atec">
+-                    <div class="img"><a href="#"><img src="imgs/img_luong/ATEC-Primary-Logo.svg" alt="Atec"></a> </div>
+-                </div>
+-                <div class="branch_iterm img-demarini">
+-                    <div class="img"><a href="#"><img src="imgs/img_luong/demarini_fob.svg" alt="demarini"></a> </div>
+-                </div>
+-                <div class="branch_iterm img-evoshield">
+-                    <div class="img"><a href="#"><img src="imgs/img_luong/evoshield-fob.svg" alt="evoshield"></a> </div>
+-                </div>
+-                <div class="branch_iterm img-luxilon">
+-                    <div class="img"><a href="#"><img src="imgs/img_luong/Luxilon_sub_fob.svg" alt="luxilon"></a> </div>
+-                </div>
+-            </div>
+-            <div class="promo_box">
+-                <ul>
+-                    <li class="hover_color_red">SIGN IN</li>
+-                    <li>|</li>
+-                    <li class="hover_color_red"> <i class="fas fa-map-marker-alt"></i> FIND A DEALER</li>
+-                    <li class="img-flag hover_color_red"><img src="imgs/img_luong/flag_en.svg"></li>
+-                </ul>
+-            </div>
+-        </div>
+-
+-    </div>
+-</header>
+-
+-<div class="container-fluid sticky_0">
+-    <div class="row ">
+-        <nav class="navigation ">
+-            <!--  ------------------ logo----------->
+-            <div class="logo_brand img-Louisville ">
+-                <a href="#"><img src="imgs/img_luong/Louisville.svg" alt="branch"></a>
+-            </div>
+-            <!-------------------end logo---------->
+-            <ul class="navi">
+-                <li class="nav-item  product-btn">
+-                    <a class="nav-link hover_color_red "  href="#"> BASEBALL<i class="fas fa-chevron-down"></i><i class="fas fa-chevron-up"></i></a>
+-                    <div class="product_menu product_baseball">
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">ALUMINUM & COMPOSITE BATS</a></li>
+-                            <li><a href="#">Custom Bats</a></li>
+-                            <li><a href="#">BBCOR</a></li>
+-                            <li><a href="#">USSSA</a></li>
+-                            <li><a href="#">Junior Big Barrel</a></li>
+-                            <li><a href="#">Yout/USA Baseball</a></li>
++                <div class="follow_link_social">
++                    <ul>
++                        <li><a href="#"><i class="fab fa-facebook-f"></i></a> </li>
++                        <li><a href="#"><i class="fab fa-youtube"></i></a> </li>
++                        <li><a href="#"><i class="fab fa-instagram-square"></i></a> </li>
++                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a> </li>
++                        <li><a href="#"><i class="fab fa-twitter"></i></a> </li>
++                    </ul>
++                    <div>
++                        <ul >
++                            <li><a href="#" >Baseball</a> </li>
++                            <li><a href="#">Golf</a> </li>
++                            <li><a href="#">Basketball</a> </li>
++                            <li><a href="#">Tennis</a> </li>
++                            <li><a href="#">Football</a> </li>
++                            <li><a href="#">Running</a> </li>
+                         </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">WOOD BATS</a></li>
+-                            <li><a href="#">MLB Prime</a></li>
+-                            <li><a href="#">Fungo</a></li>
+-                            <li><a href="#">Maple</a></li>
+-                            <li><a href="#">Birch</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+                     </div>
+-                </li>
+-                <li class="nav-item product-btn">
+-                    <a class="nav-link hover_color_red" href="#">BASKETBALL<i class="fas fa-chevron-down"></i><i class="fas fa-chevron-up"></i></a>
+-                    <div class="product_menu product_basketball">
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">ALUMINUM & COMPOSITE BATS</a></li>
+-                            <li><a href="#">Custom Bats</a></li>
+-                            <li><a href="#">BBCOR</a></li>
+-                            <li><a href="#">USSSA</a></li>
+-                            <li><a href="#">Junior Big Barrel</a></li>
+-                            <li><a href="#">Yout/USA Baseball</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">WOOD BATS</a></li>
+-                            <li><a href="#">MLB Prime</a></li>
+-                            <li><a href="#">Fungo</a></li>
+-                            <li><a href="#">Maple</a></li>
+-                            <li><a href="#">Birch</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                    </div>
+-                </li>
+-                <li class="nav-item product-btn">
+-                    <a class="nav-link hover_color_red" href="#">FOOTBALL<i class="fas fa-chevron-down"></i><i class="fas fa-chevron-up"></i></a>
+-                    <div class="product_menu product_football">
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">ALUMINUM & COMPOSITE BATS</a></li>
+-                            <li><a href="#">Custom Bats</a></li>
+-                            <li><a href="#">BBCOR</a></li>
+-                            <li><a href="#">USSSA</a></li>
+-                            <li><a href="#">Junior Big Barrel</a></li>
+-                            <li><a href="#">Yout/USA Baseball</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">WOOD BATS</a></li>
+-                            <li><a href="#">MLB Prime</a></li>
+-                            <li><a href="#">Fungo</a></li>
+-                            <li><a href="#">Maple</a></li>
+-                            <li><a href="#">Birch</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                    </div>
+-                </li>
+-                <li class="nav-item product-btn">
+-                    <a class="nav-link hover_color_red" href="#">TENNIS<i class="fas fa-chevron-down"></i><i class="fas fa-chevron-up"></i></a>
+-                    <div class="product_menu product_tennis">
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">ALUMINUM & COMPOSITE BATS</a></li>
+-                            <li><a href="#">Custom Bats</a></li>
+-                            <li><a href="#">BBCOR</a></li>
+-                            <li><a href="#">USSSA</a></li>
+-                            <li><a href="#">Junior Big Barrel</a></li>
+-                            <li><a href="#">Yout/USA Baseball</a></li>
+-                        </ul>
+-                        <ul class="product_menu-item">
+-                            <li><a href="#">WOOD BATS</a></li>
+-                            <li><a href="#">MLB Prime</a></li>
+-                            <li><a href="#">Fungo</a></li>
+-                            <li><a href="#">Maple</a></li>
+-                            <li><a href="#">Birch</a></li>
+-                        </ul>
+-                        <ul class="product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                        <ul class="product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                    </div>
+-                </li>
+-                <li class="nav-item product-btn">
+-                    <a class="nav-link hover_color_red" href="#">RUNNING<i class="fas fa-chevron-down"></i><i class="fas fa-chevron-up"></i></a>
+-                    <div class="product_menu product_running">
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">ALUMINUM & COMPOSITE BATS</a></li>
+-                            <li><a href="#">Custom Bats</a></li>
+-                            <li><a href="#">BBCOR</a></li>
+-                            <li><a href="#">USSSA</a></li>
+-                            <li><a href="#">Junior Big Barrel</a></li>
+-                            <li><a href="#">Yout/USA Baseball</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">WOOD BATS</a></li>
+-                            <li><a href="#">MLB Prime</a></li>
+-                            <li><a href="#">Fungo</a></li>
+-                            <li><a href="#">Maple</a></li>
+-                            <li><a href="#">Birch</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                        <ul class="product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                    </div>
+-                </li>
+-                <li class="nav-item product-btn">
+-                    <a class="nav-link hover_color_red" href="#">MORE<i class="fas fa-chevron-down"></i><i class="fas fa-chevron-up"></i></a>
+-                    <div class="product_menu product_more">
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">ALUMINUM & COMPOSITE BATS</a></li>
+-                            <li><a href="#">Custom Bats</a></li>
+-                            <li><a href="#">BBCOR</a></li>
+-                            <li><a href="#">USSSA</a></li>
+-                            <li><a href="#">Junior Big Barrel</a></li>
+-                            <li><a href="#">Yout/USA Baseball</a></li>
+-                        </ul>
+-                        <ul class=" product_menu-item">
+-                            <li><a href="#">WOOD BATS</a></li>
+-                            <li><a href="#">MLB Prime</a></li>
+-                            <li><a href="#">Fungo</a></li>
+-                            <li><a href="#">Maple</a></li>
+-                            <li><a href="#">Birch</a></li>
+-                        </ul>
+-                        <ul class="product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                        <ul class="product_menu-item">
+-                            <li><a href="#">GLOVES</a></li>
+-                            <li><a href="#">Stick Pack</a></li>
+-                            <li><a href="#">Wheeled Bag</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                            <li><a href="#">MLB Collection</a></li>
+-                        </ul>
+-                    </div>
+-                </li>
+-            </ul>
+-            <ul class="navigation-right">
+-                <li class="hover_border-bottom"><label><i class="fas fa-shopping-cart "></i></label></li>
+-                <li class="hover_border-bottom  search-btn"><label for="nav_search-open"><i class="fas fa-search hover_decoration"></i></label>
+-                </li>
++                </div>
++            </div>
++            <div class="footer-right">
++                <ul>
++                    <li><a href="#"><i class="fas fa-undo"></i>RETURN</a> </li>
++                    <li><a href="#"><i class="fas fa-star"></i>LIMITED WARRANTY</a> </li>
++                    <li><a href="#"><i class="fab fa-first-order"></i>ORDER STATUS</a> </li>
++                </ul>
++            </div>
++        </div>
++
++        <div class="footer_branch">
++
++            <p>WILSON FAMILY OF BRANDS</p>
++            <div class="footer_branch-branch">
++                <div class="branch_iterm img-Atec">
++                    <div class="img"><a href="#"><img src="imgs/img_luong/ATEC-Primary-Logo.svg" alt="Atec"></a> </div>
++                </div>
+ 
+-
+-            </ul>
+-        </nav>
+-    </div>
+-</div>
+-<input type="checkbox" hidden name="" id="nav_search-open"/>
+-<div class="container-fluid nav_search-none">
+-
+-    <div class="nav_search">
+-        <form class="form-group" action="#" method="post">
+-            <div class="nav_search-search">
+-                <label>SEARCH:</label>
+-                <div class="input-search">
+-                    <input class="form-control" style="font-size: 20px; height:40px"name="search" type="search" placeholder="Search Product..." >
++                <div class="branch_iterm img-evoshield">
++                    <div class="img"><a href="#"><img src="imgs/img_luong/evoshield_vert_bl.svg" alt="evoshield"></a> </div>
++                </div>
++
++                <div class="branch_iterm img-luxilon">
++                    <div class="img"><a href="#"><img src="imgs/img_luong/Luxilon_sub_fob.svg" alt="luxilon"></a> </div>
++                </div>
++                <div class="branch_iterm img-Louisville">
++                    <div class="img "><a href="#"><img src="imgs/img_luong/Louisville.svg" alt="Louisville"></a> </div>
+                 </div>
+-                <div class="button-search">
+-                    <button name="search"  type="submit" class="btn-default">Search</button>
++                <div class="branch_iterm img-demarini">
++                    <div class="img"><a href="#"><img src="imgs/img_luong/demarini_fob.svg" alt="demarini"></a> </div>
+                 </div>
+-                <div class="button-search-exit">
+-                    <label for="nav_search-open"> <i class="fas fa-times"></i></label>
+-                </div>
+-            </div>
+-        </form>
+-
+-    </div>
+-</div>
+-
+-
++            </div>
++        </div>
++        <div class="footer_boottom">
++            <p>© 2021 Wilson Sporting Goods All rights reserved.</p>
++        </div>
++    </div>
++</footer>
+ </body>
+ </html>
+\ No newline at end of file
+Index: index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/*\r\nconsole.log(\"Hello world\");//dang lam viec tren server*/\r\n\r\nconst express = require(\"express\"); // goi module express de su dung\r\nconst app = express(); //xay nha-tao dich vu host\r\nconst port = process.env.PORT || 5000;//su dung port cua file env, neu khong co file nay thi su dung port 5000\r\n\r\n//tao web, start hosting nodejs port 5000\r\napp.listen(port,function (){\r\n    console.log(\"Server is running...\");\r\n});\r\napp.use(express.static(\"public\"));//cho phep cac file tinh (css, js, imgs)\r\n\r\n// ket noi db de lam viec voi du lieu\r\nconst mssql = require(\"mssql\");\r\nconst config = {\r\n    server: \"118.70.125.210\",\r\n    user: \"sa\",\r\n    password: \"z@GH7ytQ\",\r\n    database: \"QuangHoa\"\r\n};\r\nmssql.connect(config,function(err){\r\n    if(err) console.log(err);\r\n    else console.log(\"ket not DB thanh cong!\");\r\n});\r\n\r\n// tao bien lam viec voi db\r\nconst sql = new mssql.Request();\r\n\r\n// khai bao web se dung view engine la ejs\r\napp.set(\"view engine\",\"ejs\");\r\n\r\n//tao routing cho trang chu\r\napp.get(\"/\",function (req,res){\r\n    res.send(\"Xinchao\");\r\n});\r\n\r\napp.get(\"/product-detail\",function (req,res){\r\n    res.render(\"productdetail\");\r\n});\r\napp.get(\"/show-card\",function (req,res){\r\n    res.render(\"showcard\");\r\n});\r\napp.get(\"/check-out\",function (req,res){\r\n    res.render(\"checkout\");\r\n});\r\napp.get(\"/order-complete\",function (req,res){\r\n    res.render(\"ordercomplete\");\r\n});\r\napp.get(\"/contact-us\",function (req,res){\r\n    res.render(\"contact-us\");\r\n});\r\napp.get(\"/louisville\",function (req,res){\r\n    res.render(\"louisville\");\r\n});\r\napp.get(\"/demarini\",function (req,res){\r\n    res.render(\"Demarini\");\r\n});\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.js b/index.js
+--- a/index.js	
++++ b/index.js	
+@@ -1,18 +1,28 @@
+ /*
+ console.log("Hello world");//dang lam viec tren server*/
+ 
+-const express = require("express"); // goi module express de su dung
+-const app = express(); //xay nha-tao dich vu host
+-const port = process.env.PORT || 5000;//su dung port cua file env, neu khong co file nay thi su dung port 5000
++const express = require("express");
++const morgan = require("morgan");
++const app = express();
++
++// start hosting nodejs port 5000
++const PORT = process.env.PORT || 5000;
++app.use(morgan("combined"));
++app.set("view engine", "ejs");
+ 
+-//tao web, start hosting nodejs port 5000
+-app.listen(port,function (){
+-    console.log("Server is running...");
++app.listen(5000, function (){
++    console.log ("server is running......");
+ });
++
++// ket noi db de lam viec voi du lieu
++
++
++const mssql = require("mssql");
++
+ app.use(express.static("public"));//cho phep cac file tinh (css, js, imgs)
+ 
+ // ket noi db de lam viec voi du lieu
+-const mssql = require("mssql");
++
+ const config = {
+     server: "118.70.125.210",
+     user: "sa",
+@@ -28,7 +38,6 @@
+ const sql = new mssql.Request();
+ 
+ // khai bao web se dung view engine la ejs
+-app.set("view engine","ejs");
+ 
+ //tao routing cho trang chu
+ app.get("/",function (req,res){
+@@ -56,3 +65,8 @@
+ app.get("/demarini",function (req,res){
+     res.render("Demarini");
+ });
++app.get("/Home",function (req,res){
++    res.render("home");
++});
++
++
