@@ -1,209 +1,280 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <%- include("head.ejs"); %>
+
     <link rel="stylesheet" href="public/css/aluminum-composite.css">
     <link rel="stylesheet" href="public/css/custom_boostrap.css">
     <link rel="stylesheet" href="public/libs/bootstrap3.4.1/css/bootstrap.min.css" type="text/css"/>
     <title>ALUMINUM & COMPOSITE BASEBALL BATS</title>
+    <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css"/>
+    <link rel="stylesheet" href="libs/fontaw5.15.1/css/all.css">
+    <link rel="stylesheet" href="libs/Novi.slider/nivo-slider.css">
+    <link rel="stylesheet" href="libs/Novi.slider/themes/default/default.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aluminum-composite.css">
+
 </head>
 <body>
-    <section class="container-fluid main-content">
+<%- include("header.ejs");%>
+    <section class="main-content">
         <div class="row">
             <div class="col-md-12 nav-menu">
-                <img class="cover-img" src="public/imgs/aluminum-composite/BG-head.jpg">
-                <ol class="nav-balls">
-                    <li><a href="#">HOMEPAGE</a></li>
-                    <li><a href="#">BASEBALLS</a></li>
-                    <li><a href="#" class="active">ALUMINUM & COMPOSITE BASEBALL BATS</a></li>
-                </ol>
+                <img class="cover-img" src="imgs/img_luong/grid-banner-basketball.jpg">
+                <p style="margin:20px; font-size: 18px"><a href="">HOME</a> | <a href="">BASEBALL</a> | ALUMINUM & COMPOSITE BASEBALL BATS</p>
+
                 <h1 class="title-category">ALUMINUM & COMPOSITE BASEBALL BATS</h1>
             </div>
         </div>
     </section>
     <section class="container-fluid main-content">
         <div class="row">
-        <div class="col-md-3">
-            <div class="fixed-filter-bar">
-                <h2 class="shopping-by">Shopping by:</h2>
-            <hr>
-            <div class="sliding category-icon dropdown-custom">
-                <p class="category-list dropdown-custom">Category</p>
-                <span class="glyphicon-plus icons sliding"></span>
+            <div class="col-md-3">
+                <div class="fixed-filter-bar">
+                    <h2 class="shopping-by">Shopping by:</h2>
+                    <hr>
+                        <div class="sliding category-icon dropdown-custom">
+                            <p class="category-list dropdown-custom">Category</p>
+                            <span class="glyphicon-plus icons sliding"></span>
+                        </div>
+                        <div class="">
+                            <ul class="category-filter" style="">
+                                <li style="font-weight: bold; text-decoration: underline">Basketballs(46)</li>
+                            </ul>
+                        </div>
+                    <hr>
+                        <div class="dropdown category-icon dropdown-custom">
+                            <p class="category-list dropdown-custom">Certification</p>
+                            <span class="glyphicon-plus icons sliding"></span>
+                            <ul class="category-list-light" style="">
+                                <li><label class="check-container">1.15 BPF(1)
+                                        <input type="radio" checked="checked" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">BBCOR(12)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">USA Baseball(9)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">USSSA(8)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    <hr>
+                        <div class="dropdown category-icon dropdown-custom">
+                            <p class="category-list dropdown-custom">Series</p>
+                            <span class="glyphicon-plus icons sliding"></span>
+                            <ul class="category-list-light start-hidden" style="">
+                                <li><label class="check-container">Meta(9)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">Prime(2)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">Omaha(5)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">Select(6)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">Solo(9)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">Vapor(2)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    <hr>
+                        <div class="dropdown category-icon dropdown-custom">
+                            <p class="category-list dropdown-custom">Weight Drop</p>
+                            <span class="glyphicon-plus icons sliding"></span>
+                            <ul class="category-list-light start-hidden" style="">
+                                <li><label class="check-container">-3(12)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">-5(3)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">-8(3)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">-9(1)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">-10(8)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">-11(2)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">-12.5(20)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    <hr>
+                        <div class="dropdown category-icon dropdown-custom">
+                            <p class="category-list dropdown-custom">Barrel Diameter</p>
+                            <span class="glyphicon-plus icons sliding"></span>
+                            <ul class="category-list-light start-hidden" style="">
+                                <li><label class="check-container">2 1/4 Inches(2)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">2 1/2 Inches(1)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">2 5/8 Inches(22)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="check-container">2 3/4 Inches(7)
+                                        <input type="radio" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    <hr>
+                    <div class="dropdown category-icon dropdown-custom">
+                        <p class="category-list dropdown-custom">Barrel Material</p>
+                        <span class="glyphicon-plus icons sliding"></span>
+                        <ul class="category-list-light start-hidden" style="">
+                            <li><label class="check-container">Alloy(21)
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            <li><label class="check-container">Composite(11)
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                     <hr>
+                    <div class="sliding category-icon dropdown-custom">
+                        <p class="category-list dropdown-custom">Collection</p>
+                        <span class="glyphicon-plus icons category-filter sliding"></span>
+                        <ul class="category-list-light start-hidden" style="">
+                            <li><label class="check-container">2021 Baseball Bats(13)
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
             </div>
-            <div class="">
-                <ul class="category-filter" style="">
-                    <li style="font-weight: bold; text-decoration: underline">Basketballs(46)</li>
-                </ul>
             </div>
-            <hr>
-            <div class="dropdown category-icon dropdown-custom">
-                <p class="category-list dropdown-custom">Certification</p>
-                <span class="glyphicon-plus icons sliding"></span>
-                <ul class="category-list-light" style="">
-                    <li><label class="check-container">1.15 BPF(1)
-                            <input type="radio" checked="checked" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">BBCOR(12)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">USA Baseball(9)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">USSSA(8)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <hr>
-            <div class="dropdown category-icon dropdown-custom">
-                <p class="category-list dropdown-custom">Series</p>
-                <span class="glyphicon-plus icons sliding"></span>
-                <ul class="category-list-light start-hidden" style="">
-                    <li><label class="check-container">Meta(9)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">Prime(2)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">Omaha(5)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">Select(6)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">Solo(9)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">Vapor(2)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <hr>
-            <div class="dropdown category-icon dropdown-custom">
-                <p class="category-list dropdown-custom">Weight Drop</p>
-                <span class="glyphicon-plus icons sliding"></span>
-                <ul class="category-list-light start-hidden" style="">
-                    <li><label class="check-container">-3(12)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">-5(3)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">-8(3)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">-9(1)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">-10(8)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">-11(2)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">-12.5(20)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <hr>
-            <div class="dropdown category-icon dropdown-custom">
-                <p class="category-list dropdown-custom">Barrel Diameter</p>
-                <span class="glyphicon-plus icons sliding"></span>
-                <ul class="category-list-light start-hidden" style="">
-                    <li><label class="check-container">2 1/4 Inches(2)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">2 1/2 Inches(1)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">2 5/8 Inches(22)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">2 3/4 Inches(7)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <hr>
-            <div class="dropdown category-icon dropdown-custom">
-                <p class="category-list dropdown-custom">Barrel Material</p>
-                <span class="glyphicon-plus icons sliding"></span>
-                <ul class="category-list-light start-hidden" style="">
-                    <li><label class="check-container">Alloy(21)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                    <li><label class="check-container">Composite(11)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            <hr>
-            <div class="sliding category-icon dropdown-custom">
-                <p class="category-list dropdown-custom">Collection</p>
-                <span class="glyphicon-plus icons category-filter sliding"></span>
-                <ul class="category-list-light start-hidden" style="">
-                    <li><label class="check-container">2021 Baseball Bats(13)
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-9 product-row">
-            <p class="result">33 Results</p>
+            <div class="col-md-9 product-row">
+                <div class="row">
+                    <div class="col-md-3 box-product">
+                        <a href="http://localhost:5000/product-detail?prodcode=1234567891"><img src="imgs/aluminum-composite/bat1.jpg"></a>
+                        <p class="product-name"><a href="#">2021 Meta(-5) USSSA Baseball Bat</a></p>
+                        <p class="price">$349.9</p>
+
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+
+                    </div>
+                    <div class="col-md-3 box-product">
+                        <a href="http://localhost:5000/product-detail?prodcode=1234567890"><img src="imgs/aluminum-composite/bat_2.jpg"></a>
+                        <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                        <p class="price">$349.9</p>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="col-md-3 box-promotion">
+                        <a href="#"><img src="imgs/img_luong/promotion_bat.png"></a>
+                            <div class="box-promotion-btn"> <a href="#">CUSTOMIZE NOW</a></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 box-product">
+                        <a href="http://localhost:5000/product-detail?prodcode=1234567891"><img src="imgs/aluminum-composite/bat_8.jpg"></a>
+                        <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                        <p class="price">$349.9</p>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="col-md-3 box-product">
+                        <a href="http://localhost:5000/product-detail?prodcode=1234567890"><img src="imgs/aluminum-composite/bat_10.jpg"></a>
+                        <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                        <p class="price">$349.9</p>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+                    <div class="col-md-3 box-product">
+                        <a href="http://localhost:5000/product-detail?prodcode=1234567891"><img src="imgs/aluminum-composite/bat_3.jpeg"></a>
+                        <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                        <p class="price">$349.9</p>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star checked"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                        <span class="glyphicon glyphicon-star"></span>
+                    </div>
+
+                </div>
+
+
                 <div class="col-md-3 box-product">
-                    <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
+                    <a href="http://localhost:5000/product-detail?prodcode=1234567890"><img src="imgs/aluminum-composite/bat_9.jpg"></a>
                     <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
                     <p class="price">$349.9</p>
                     <span class="glyphicon glyphicon-star checked"></span>
@@ -212,89 +283,61 @@
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star"></span>
                 </div>
-            <div class="col-md-3 box-product">
-                <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
-                <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
-                <p class="price">$349.9</p>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
+                <div class="col-md-3 box-product">
+                    <a href="http://localhost:5000/product-detail?prodcode=1234567891"><img src="imgs/aluminum-composite/bat_11.jpg"></a>
+                    <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                    <p class="price">$349.9</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
+                <div class="col-md-3 box-product">
+                    <a href="http://localhost:5000/product-detail?prodcode=1234567890"><img src="imgs/aluminum-composite/bat_4.jpg"></a>
+                    <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                    <p class="price">$349.9</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
+                <div class="col-md-3 box-product">
+                    <a href="http://localhost:5000/product-detail?prodcode=1234567891"><img src="imgs/aluminum-composite/bat_6.jpeg"></a>
+                    <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                    <p class="price">$349.9</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
+                <div class="col-md-3 box-product">
+                    <a href="http://localhost:5000/product-detail?prodcode=1234567890"><img src="imgs/aluminum-composite/bat_5.jpg"></a>
+                    <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                    <p class="price">$349.9</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
+                <div class="col-md-3 box-product">
+                    <a href="http://localhost:5000/product-detail?prodcode=1234567891"><img src="imgs/aluminum-composite/bat_7.jpg"></a>
+                    <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
+                    <p class="price">$349.9</p>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star checked"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </div>
             </div>
-            <div class="col-md-3">
-                <a class="box-promotion" href="#"><img src="public/imgs/aluminum-composite/20-0939_LS_BB_EPDPs_PromoGrid-Custom_2.jpg"></a>
-            </div>
-
-        </div>
-
-    <div class="col-md-9 product-row-2">
-        <div class="col-md-3 box-product">
-            <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
-            <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
-            <p class="price">$349.9</p>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-        </div>
-        <div class="col-md-3 box-product">
-            <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
-            <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
-            <p class="price">$349.9</p>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-        </div>
-        <div class="col-md-3 box-product">
-            <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
-            <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
-            <p class="price">$349.9</p>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star checked"></span>
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-        </div>
-    </div>
-
-        <div class="col-md-9 product-row-2">
-            <div class="col-md-3 box-product">
-                <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
-                <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
-                <p class="price">$349.9</p>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-            </div>
-            <div class="col-md-3 box-product">
-                <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
-                <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
-                <p class="price">$349.9</p>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-            </div>
-            <div class="col-md-3 box-product">
-                <a href="#"><img src="public/imgs/aluminum-composite/bat1.jpg"></a>
-                <a href="#"><p class="product-name">2021 Meta(-5) USSSA Baseball Bat</p></a>
-                <p class="price">$349.9</p>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star checked"></span>
-                <span class="glyphicon glyphicon-star"></span>
-                <span class="glyphicon glyphicon-star"></span>
-            </div>
-        </div>
         </div>
     </section>
+<%- include("footer.ejs");%>
+
     <script type="text/javascript">
         $('.sliding').click(function () {
             $(this).next().slideToggle(600);

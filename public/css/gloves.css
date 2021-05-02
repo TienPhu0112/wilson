@@ -1,0 +1,23 @@
+.box-promotion-btn{
+    position: absolute;
+    bottom: 130px;
+    left: 330px;
+    width: 170px;
+    height: 50px;
+    background-color: #a7101d;
+
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+}
+.box-promotion-btn a{
+    color: #e3e3e3;
+    text-decoration: none;
+}
+.box-promotion-btn a:hover{
+    color: whitesmoke;
+}
+.box-promotion-btn:hover{
+    background-color: #3c3c3c;
+
+}

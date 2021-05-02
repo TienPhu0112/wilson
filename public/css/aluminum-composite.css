@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 
 }
 .nav-menu li{
@@ -143,16 +144,13 @@ body{
     color: #9d9d9d;
 }
 .product-row{
-   margin-bottom: 135px;
+   margin-bottom: 50px;
 }
-.product-row-2{
-    margin-bottom: 135px;
-    margin-left: 312px;
-}
+
 .box-product{
-    height: 230px;
+    height: 400px;
     width: 230px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 25px;
 }
 .box-product img{
@@ -169,25 +167,21 @@ body{
     transition: transform 1s, filter .5s ease-out;
 }
 .box-product:hover img{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .box-product span{
-    float: left;
     font-size: 18px;
 }
 .product-name{
-    float: left;
     margin-top: 25px;
     font-size: 20px;
     font-weight: bold;
 }
 .box-promotion{
-    height: 230px;
-    width: 230px;
+    width: 500px;
 }
 .box-promotion img{
-    height: auto;
-    width: 410px;
+    width: 500px;
 }
 
 .box-promotion h3{
@@ -203,12 +197,35 @@ body{
     color: white;
     margin-top: -35px;
 }
+
 .price{
-    float: left;
     margin-right: 165px;
     font-size: 18px;
     font-weight: lighter;
 }
 .checked{
-    color: #a7101d;
+    color: #D2B70B;
+}
+.box-promotion-btn{
+    position: absolute;
+    bottom: 40px;
+    left: 330px;
+    width: 170px;
+    height: 45px;
+    background-color: #a7101d;
+
+    font-size: 18px;
+    text-align: center;
+    line-height: 45px;
+}
+.box-promotion-btn a{
+    color: #e3e3e3;
+    text-decoration: none;
+}
+.box-promotion-btn a:hover{
+    color: whitesmoke;
+}
+.box-promotion-btn:hover{
+    background-color: #3c3c3c;
+
 }
