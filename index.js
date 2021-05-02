@@ -3,12 +3,10 @@ console.log("Hello world");//dang lam viec tren server*/
 
 
 const express = require("express");
-const morgan = require("morgan");
 const app = express();
 
 // start hosting nodejs port 5000
 const PORT = process.env.PORT || 5000;
-app.use(morgan("combined"));
 app.set("view engine", "ejs");
 
 app.listen(5000, function (){
@@ -105,21 +103,10 @@ app.get("/pop-up_sign-in",function (req,res){
     res.render("pop-up_sign-in.ejs");
 });
 
-
-
-
-
-
-const express = require("express"); // goi module express de su dung
-const app = express(); //xay nha-tao dich vu host
-const port = process.env.PORT || 3000;//su dung port cua file env, neu khong co file nay thi su dung port 5000
-
-//tao web, start hosting nodejs port 5000
-app.listen(port,function (){
-    console.log("Server is running...");
+app.get("/aluminum-composite", function(req,res){
+    res.render("aluminum-composite")
 });
-app.use(express.static("public"));//cho phep cac file tinh (css, js, imgs)
 
-app.get("/",function (req,res){
-    res.send("Xinchao");
-});
+
+
+
