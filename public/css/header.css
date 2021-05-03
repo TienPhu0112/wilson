@@ -176,10 +176,10 @@
     color: red;
 }
 
+
 .product_menu .product_menu-item{
     display: none;
     opacity: 0;
-    transition:opacity 1000ms;
 
 }
 .navigation li.product-btn:hover .product_menu-item

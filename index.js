@@ -106,6 +106,9 @@ app.get("/pop-up_sign-in",function (req,res){
 app.get("/aluminum-composite", function(req,res){
     res.render("aluminum-composite")
 });
+app.get("/gloves", function(req,res){
+    res.render("gloves")
+});
 
 app.get("/baseball-protective", function (req,res){
     res.render("baseball-protective")
