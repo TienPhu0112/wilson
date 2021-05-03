@@ -1,0 +1,102 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"d5aa659d-b0f4-4b96-917c-09fb4e25353b\" name=\"Default Changelist\" comment=\"DA\">\r\n      <change afterPath=\"$PROJECT_DIR$/public/css/baseball-protective.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/BG.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat 1.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat 2.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat 3.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat4.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat5.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat6.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat7.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat8.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/promo.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/apparel/promo.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item1.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item2.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item3.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item4.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item5.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item6.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item7.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item8.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/promo.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/promo2.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/views/baseball-protective.ejs\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/css/aluminum-composite.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/css/aluminum-composite.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/css/custom_boostrap.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/public/css/custom_boostrap.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/aluminum-composite/bat1.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/1.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/10.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/11.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/12.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/13.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/14.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/2.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/3.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/4.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/5.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/6.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/7.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/8.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/9.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/promo1.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/thanh-bar.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/views/about-us.ejs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/views/about-us.ejs\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/views/aluminum-composite.ejs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/views/aluminum-composite.ejs\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/views/head.ejs\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/views/head.ejs\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedIndex\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1qqIrPLRhukkzQaodYWngGfIHbE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"javascript.nodejs.core.library.configured.version\" value=\"14.16.0\" />\r\n    <property name=\"javascript.nodejs.core.library.typings.version\" value=\"14.14.43\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_interpreter_path\" value=\"node\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$\" />\r\n      <recent name=\"$PROJECT_DIR$/public/libs\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"d5aa659d-b0f4-4b96-917c-09fb4e25353b\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1617800892373</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1617800892373</updated>\r\n      <workItem from=\"1617800893642\" duration=\"1934000\" />\r\n      <workItem from=\"1617803183853\" duration=\"348000\" />\r\n      <workItem from=\"1619945796854\" duration=\"2679000\" />\r\n      <workItem from=\"1619948974312\" duration=\"973000\" />\r\n      <workItem from=\"1619968092673\" duration=\"7030000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"DA\">\r\n      <created>1619609268355</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619609268355</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"DA\">\r\n      <created>1619609870181</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619609870181</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"DA\">\r\n      <created>1619610063868</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619610063868</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"DA\">\r\n      <created>1619610538109</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619610538109</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"DA\">\r\n      <created>1619968387310</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1619968387310</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"DA\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"DA\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6e1de0ecab8ad300da3ee431483f2e6d67f15e54)
++++ b/.idea/workspace.xml	(date 1620009838752)
+@@ -1,55 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="d5aa659d-b0f4-4b96-917c-09fb4e25353b" name="Default Changelist" comment="DA">
+-      <change afterPath="$PROJECT_DIR$/public/css/baseball-protective.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/BG.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat 1.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat 2.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat 3.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat4.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat5.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat6.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat7.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/bat8.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/aluminum-composite/promo.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/apparel/promo.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item1.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item2.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item3.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item4.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item5.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item6.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item7.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/item8.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/promo.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/public/imgs/img_ducanh/baseball-protective/promo2.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/views/baseball-protective.ejs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/css/aluminum-composite.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/aluminum-composite.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/css/custom_boostrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom_boostrap.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/aluminum-composite/bat1.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/1.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/10.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/11.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/12.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/13.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/14.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/2.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/3.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/4.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/5.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/6.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/7.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/8.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/9.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/promo1.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/public/imgs/indoor-outdoor-balls/thanh-bar.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/views/about-us.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/about-us.ejs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/views/aluminum-composite.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/aluminum-composite.ejs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/views/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/head.ejs" afterDir="false" />
+-    </list>
++    <list default="true" id="d5aa659d-b0f4-4b96-917c-09fb4e25353b" name="Default Changelist" comment="Fix loi" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -112,7 +64,7 @@
+       <workItem from="1617803183853" duration="348000" />
+       <workItem from="1619945796854" duration="2679000" />
+       <workItem from="1619948974312" duration="973000" />
+-      <workItem from="1619968092673" duration="7030000" />
++      <workItem from="1619968092673" duration="7692000" />
+     </task>
+     <task id="LOCAL-00001" summary="DA">
+       <created>1619609268355</created>
+@@ -149,7 +101,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1619968387310</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="Fix loi">
++      <created>1620009339161</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1620009339161</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -170,6 +129,7 @@
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="DA" />
+-    <option name="LAST_COMMIT_MESSAGE" value="DA" />
++    <MESSAGE value="Fix loi" />
++    <option name="LAST_COMMIT_MESSAGE" value="Fix loi" />
+   </component>
+ </project>
+\ No newline at end of file
