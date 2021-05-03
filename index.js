@@ -18,7 +18,7 @@ app.listen(5000, function (){
 
 const mssql = require("mssql");
 
-app.use(express.static("public"));//cho phep cac file tinh (css, js, imgs)
+app.use(express.static("public/"));//cho phep cac file tinh (css, js, imgs)
 
 // ket noi db de lam viec voi du lieu
 
@@ -106,6 +106,16 @@ app.get("/pop-up_sign-in",function (req,res){
 app.get("/aluminum-composite", function(req,res){
     res.render("aluminum-composite")
 });
+
+app.get("/baseball-protective", function (req,res){
+    res.render("baseball-protective")
+});
+
+app.get("/about-us", function (req,res){
+    res.render("about-us")
+});
+
+
 
 
 
