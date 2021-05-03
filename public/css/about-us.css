@@ -8,6 +8,11 @@ body{
 }
 .main-content-about-us a{
     color: white;
+    text-decoration: none;
+}
+.main-content-about-us a:hover{
+    color: #a7101d;
+    text-decoration: none;
 }
 .main-content-about-us h1{
     color: white;
@@ -20,4 +25,26 @@ body{
     width: 100%;
     height: auto;
     color: rgba(0,0,0,0.5)
+}
+.about-detail{
+    margin-top: 75px;
+    margin-left: 100px;
+}
+.team-img{
+    width: 100%;
+    height: auto;
+}
+.text-holder{
+    margin-left: 5px;
+}
+.team-detail{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.member-title{
+    margin-bottom: 20px;
+}
+.member-img{
+    width: 100%;
+    height: auto;
 }

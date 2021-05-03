@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <%- include("head.ejs"); %>
-    <link rel="stylesheet" href="css/aluminum-composite.css">
+    <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/custom_boostrap.css">
     <link rel="stylesheet" href="libs/bootstrap3.4.1/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="libs/fontawesome-free-5.15.1-web/css/all.css">
@@ -17,10 +17,11 @@
     <title>About Us</title>
 </head>
 <body>
+<%- include("header.ejs");%>
     <section class="container-fluid main-content-about-us main-content">
         <div class="row">
             <div class="col-md-12">
-                <img class="cover-img-2 cover-about-us" src="public/imgs/about-us/1.jpg">
+                <img class="cover-img-2 cover-about-us" src="imgs/img_ducanh/about-us/1.jpg">
                 <div class="about-us-nav col-md-12">
                     <ol class="nav-balls-2 text-center">
                     <li><a href="#">HOMEPAGE</a></li>
@@ -29,9 +30,35 @@
                 <h1 class="title-category text-center">ABOUT US</h1>
                 </div>
             </div>
+            <div class="col-md-12 about-detail">
+                <div class="col-md-5">
+                    <img class="team-img" src="imgs/img_ducanh/about-us/2.jpg">
+                </div>
+                <div class="col-md-5 text-holder">
+                    <h3 style="margin-top:0;">About Details</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incdunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerciti aulamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehederit essete cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>perspiciatis. aliquip ex ea commodo consequat. Duis aute irure dolor in reprehederit laborum.</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum perspiciatis. aliquip ex ea commodo consequat. Duis aute irure dolor in reprehederit laborum.Ut enim ad minim veniam, quis nostrud exerciti aulamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehederit essete cillum dolore eu fugiat nulla</p>
+                </div>
+            </div>
+            <div class="col-md-12 team-detail">
+                <h2 class="text-center member-title">Team Members</h2>
+                <div class="col-md-3">
+                    <img class="member-img" src="imgs/img_ducanh/about-us/team1.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img class="member-img" src="imgs/img_ducanh/about-us/team2.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img class="member-img" src="imgs/img_ducanh/about-us/team3.jpg">
+                </div>
+                <div class="col-md-3">
+                    <img class="member-img" src="imgs/img_ducanh/about-us/team4.jpg">
+                </div>
+            </div>
         </div>
     </section>
-
+<%- include("footer.ejs");%>
     <script src="libs/jquery/jquery-3.5.1.min.js"></script>
     <script src="libs/bootstrap3.4.1/js/bootstrap.js"></script>
     <script src="libs/owlcarosel/owl.carousel.min.js"></script>
