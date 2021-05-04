@@ -31,17 +31,12 @@
 
     <div class="grid">
         <div class="grid__row">
-            <div class="grid__column-3">
-                <div id="mapholder">
 
-                </div>
-            </div>
-
-            <div class="grid__column-9">
+            <div class="grid__column-12">
                 <div class="contact-content">
                     <div class="grid__row">
 
-                        <div class="grid__column-12-1">
+                        <div class="grid__column-5">
 
                             <div class="contact-content-header">
                                 <h3>Contact us</h3>
@@ -66,7 +61,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="grid__column-3-3">
+                        <div class="grid__column-4">
                             <div class="contact-content-describe">
                                 <h4>
                                     Hours of Operation:
@@ -76,7 +71,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="grid__column-3-3">
+                        <div class="grid__column-3">
                             <div class="contact-content-describe">
                                 <h4>
                                     Customer Service:
@@ -153,6 +148,14 @@
                     </div>
                 </div>
             </div>
+            <div class="grid__column-12">
+                <div class="mapholder-container">
+
+                    <div id="mapholder">
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer_bootom">
@@ -208,8 +211,8 @@
         // var latlon=new google.maps.LatLng(lat, lon)
         var latlon=new google.maps.LatLng(41.88465130652014,-87.62251163251261)
         var mapholder=document.getElementById('mapholder')
-        mapholder.style.height='310px';
-        mapholder.style.width='345px';
+        mapholder.style.height='400px';
+        mapholder.style.width='100%';
 
         var myOptions={
             center:latlon,zoom:14,

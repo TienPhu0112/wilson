@@ -46,6 +46,29 @@ html{
 }
 
 /*Test*/
+.grid__column-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    width:100% ;
+}
+
+.grid__column-5{
+    padding-left: 12px;
+    padding-right: 12px;
+    width:41.666666% ;
+}
+
+.grid__column-4{
+    padding-left: 12px;
+    padding-right: 12px;
+    width:33.33333% ;
+}
+
+.grid__column-2{
+    padding-left: 12px;
+    padding-right: 12px;
+    width:16.666666% ;
+}
 
 .grid__column-3{
     padding-left: 12px;
