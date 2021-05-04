@@ -6,10 +6,10 @@ const express = require("express");
 const app = express();
 
 // start hosting nodejs port 5000
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 app.set("view engine", "ejs");
 
-app.listen(process.env.PORT || 5000, function (){
+app.listen(process.env.PORT || 3000, function (){
     console.log ("server is running......");
 });
 
