@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5aa659d-b0f4-4b96-917c-09fb4e25353b" name="Default Changelist" comment="Fix loi">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_25_2021_4_46_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_25_2021_4_46_PM__Default_Changelist_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <workItem from="1619945796854" duration="2679000" />
       <workItem from="1619948974312" duration="973000" />
       <workItem from="1619968092673" duration="7030000" />
-      <workItem from="1620138460270" duration="2825000" />
+      <workItem from="1620138460270" duration="3865000" />
     </task>
     <task id="LOCAL-00001" summary="DA">
       <created>1619609268355</created>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620140700261</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix loi">
+      <created>1620141824001</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620141824001</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
