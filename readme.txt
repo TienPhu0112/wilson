@@ -9,7 +9,7 @@ Clone the git repo:
 git clone https://github.com/dada-da/wilson
 or download the ZIP file:
 
-https://github.com/rsp/node-live-color/archive/master.zip
+https://github.com/dada-da/wilson/blob/master/team3-wilson-eproject.zip
 
 ## Usage
 
