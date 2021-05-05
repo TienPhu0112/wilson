@@ -39,7 +39,7 @@ const sql = new mssql.Request();
 // khai bao web se dung view engine la ejs
 
 //tao routing cho trang chu
-app.get("/Home",function (req,res){
+app.get("/",function (req,res){
     res.render("home");
 });
 
