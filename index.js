@@ -39,8 +39,8 @@ const sql = new mssql.Request();
 // khai bao web se dung view engine la ejs
 
 //tao routing cho trang chu
-app.get("/",function (req,res){
-    res.send("Xinchao");
+app.get("/Home",function (req,res){
+    res.render("home");
 });
 
 app.get("/product-detail",function (req,res){
@@ -77,9 +77,6 @@ app.get("/louisville",function (req,res){
 });
 app.get("/demarini",function (req,res){
     res.render("Demarini");
-});
-app.get("/Home",function (req,res){
-    res.render("home");
 });
 app.get("/Sign_in",function (req,res){
     res.render("sign_in");
