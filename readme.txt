@@ -13,6 +13,8 @@ https://github.com/dada-da/wilson/blob/master/team3-wilson-eproject.zip
 
 ## Usage
 
+Heroku link: https://wilson-eproject.herokuapp.com/
+
 Start the server:
 
 npm start
